@@ -15,7 +15,7 @@
 					<form class="search">
 						<input class="search-input" type="text" value="Поиск">
 						<button type="submit-button">Поиск</button>
-					</form> 
+					</form>
 					<div class="info-panel">
 						<a class='info-bookmarks'>Закладки: <span id="bookmark-counter">0</span></a>
 						<a class='info-cart'>Корзина: <span id="cart-counter">0</span></a>
@@ -78,7 +78,7 @@
 						                <input class="max-price" type="text" value="15 000">
 						            </div>
 						        </div>
-								
+
 								<fieldset>
 							        <legend>Производители</legend>
 							        <input id="n1-1" name="brand1" type="checkbox"><label for="n1-1">BOSCH</label>
@@ -87,13 +87,13 @@
 									<input id="n1-4" name="brand4" type="checkbox"><label for="n1-4">DEWALT</label>
 									<input id="n1-5" name="brand5" type="checkbox"><label for="n1-5">HITACHI</label>
 								</fieldset>
-								
+
 								<fieldset>
 							        <legend>Питание</legend>
 									<input id="n2-1" name="groups" type="radio"><label for="n2-1">Аккумуляторные</label>
 									<input id="n2-2" name="groups" type="radio"><label for="n2-2">Сетевые</label>
 								</fieldset>
-								
+
 								<input name="show" class="btn white" type="submit" value="Показать">
 							</form>
 						</section>
@@ -288,7 +288,7 @@
 							<li class="footer-bottom-menu-item"><a href="#" class="footer-bottom-menu-link">Инструмент</a></li>
 							<li class="footer-bottom-menu-item"><a href="#" class="footer-bottom-menu-link">Спецпредложения</a></li>
 						</ul>
-					</div>	
+					</div>
 				</div>
 				<div class="bottom">
 					<div class="copyrite technomart">
@@ -305,13 +305,13 @@
 						</div>
 						<div class="feedback">
 							<p>
-								Обратная связь - 
+								Обратная связь -
 							</p>
 							<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
 						</div>
 						<div class="сopyright academy">
 							<p>
-								Разработано - 
+								Разработано -
 							</p>
 							<a href="#">htmlacademy.ru</a>
 						</div>
@@ -330,5 +330,21 @@
 			<input type="button" class="btn white" value="Продолжить покупки">
 	   	</div>
 	</div>
+	<!-- PixLayout -->
+	    <script src="_assets/jquery-1.11.2.min.js"></script>
+	    <script src="_assets/jquery.pixlayout.0.9.7.js"></script>
+	    <script>
+	      $(function(){
+	        $.pixlayout({
+	          src: "./_design/PSD/technomart-catalog.jpg",
+	          opacity: 0.4,
+	          top: 0,
+	          center: true,
+	          clip: true,
+	          show: true,
+	        })
+	      });
+	    </script>
+	<!-- / PixLayout -->
 </body>
 </html>

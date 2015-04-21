@@ -1,5 +1,34 @@
+/**************** Общая сетка *************************/
+
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src:
+    local('MontserratAlternates-Regular'),
+    url('fonts/MontserratAlternates.woff') format('woff');
+}
+
+*{
+	box-sizing: border-box;
+}
+
+html,
 body{
-	font-size: 13px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+body{
+	font-size: 14px;
 	line-height: 24px;
 	color: #000;
 	font-weight: normal;
@@ -22,4 +51,291 @@ h2{
 	font-weight: normal;
 	font-family: Cuprum Regular;
 	text-transform: uppercase;
+}
+
+.page-wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: rgba(0,0,0,.2);
+}
+
+.page-header{
+    width: 100%;
+    height: 320px;
+    color: white;
+
+    background-color: rgba(0,0,0,0.2);
+}
+
+.container{
+	box-sizing: border-box;
+    width: 960px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.page-content{
+    width: 100%;
+
+    background-color: #fbf8f5;
+}
+
+.row{
+	margin-top: 20px;
+}
+
+.row:first-of-type{
+	margin-top: 0px;
+}
+
+.row:last-of-type{
+	margin-bottom: 42px;
+}
+
+.col9{
+	width: 75%;
+}
+
+.col6{
+	width: 50%;
+}
+
+.col5{
+	width: 42%;
+}
+
+.col4{
+	width: 33%;
+}
+
+.col3{
+	width: 25%;
+}
+
+.col2{
+	width: 16%;
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9,
+.col10,
+.col11,
+.col12{
+	float: left;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.page-footer{
+	padding: 40px 0;
+
+	width: 100%;
+	color: white;
+
+	background-color: black;
+}
+
+/**************** Отдельные общие элементы *************************/
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/**************** index *************************/
+
+.page-content{
+	padding-top: 60px;
+}
+
+.category-intro{
+	width: 300px;
+	height: 122px;
+	background-color: green;
+}
+
+.yellow{
+	float: left;
+}
+
+.blue{
+	float: left;
+	margin-left: 20px;
+}
+
+.pink{
+	float: right;
+}
+
+.green{
+	float: right;
+	margin-top: 20px;
+}
+
+.orange{
+	float: right;
+	clear: right;
+	margin-top: 20px;
+}
+
+.slider{
+	margin-top: 142px;
+	width: 620px;
+	height: 265px;
+	overflow: hidden;
+}
+
+.info-blocks{
+	padding-bottom: 30px;
+}
+
+.popular-header{
+	position: relative;
+
+	padding-left: 30px;
+	padding-top: 25px;
+	padding-right: 30px;
+	margin-top: 25px;
+	height: 88px;
+
+	background-color: red;
+}
+
+.btn.red.long{
+	position: absolute;
+	top: 25px; right: 25px;
+	display: block;
+
+	width: 253px;
+	height: 37px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	background-color: white;
+}
+
+/**************** Общие части *************************/
+
+/********* header **********/
+
+.header-top{
+	height: 42px;
+	line-height: 42px;
+
+	background-color: rgba(0,0,0,0.2);
+}
+
+.logo{
+	float: left;
+	width: 220px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+
+	background-color: #ee3643;
+}
+
+form.search{
+	float: left;
+	width: 270px;
+}
+
+form.search > *{
+	float: right;
+	margin-top: 10px;
+}
+
+form.search .search-input{
+	width: 230px;
+}
+
+.info-panel{
+	float: right;
+}
+
+.info-panel .info-cart, .info-panel .info-bookmarks, .info-panel .order-btn{
+	box-sizing: border-box;
+	float: left;
+	padding-right: 30px;
+	width: 150px;
+	text-align: right;
+}
+
+.header-middle{
+	height: 158px;
+	width: 100%;
+
+	background-color: rgba(0,0,255,0.2);
+}
+
+.header-middle > *{
+	box-sizing: border-box;
+	width: 313.333333px;
+	height: 155px;
+	float: left;
+}
+
+.header-desc{
+	padding-top: 50px;
+	padding-left: 50px;
+	line-height: 22px;
+}
+
+.header-contacts{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.header-contacts .phone{
+	width: 100%;
+	padding: 4px;
+	font-size: 24px;
+	border: 2px solid grey;
+}
+
+.no-auth{
+	margin-top: 45px;
+}
+
+.no-auth > *{
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: grey;
+
+	background-color: white;
+}
+
+.main-menu{
+	height: 55px;
+	list-style: none;
+	padding: 0px 10px;
+	line-height: 55px;
+	font-size: 20px;
+
+	background-color: #32425c;
+}
+
+.main-menu li{
+	display: inline-block;
+	padding-left: 35px;
 }
