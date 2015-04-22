@@ -1,11 +1,29 @@
 /**************** Общая сетка *************************/
 
 @font-face {
-  font-family: 'Montserrat Alternates';
-  src:
-    local('MontserratAlternates-Regular'),
-    url('fonts/MontserratAlternates.woff') format('woff');
+    font-family: Cuprum-Regular;
+    src: local("Cuprum-Regular"),
+         url(../fonts/Cuprum/Cuprum-Regular.ttf);
 }
+
+@font-face {
+    font-family: Cuprum-Italic;
+    src: local("Cuprum-Italic"),
+         url(../fonts/Cuprum/Cuprum-Italic.ttf);
+}
+
+@font-face {
+    font-family: Cuprum-BoldItalic;
+    src: local("Cuprum-BoldItalic"),
+         url(../fonts/Cuprum/Cuprum-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Cuprum-Bold;
+    src: local("Cuprum-Bold"),
+         url(../fonts/Cuprum/Cuprum-Bold.ttf);
+}
+
 
 *{
 	box-sizing: border-box;
@@ -19,6 +37,8 @@ body{
     padding: 0;
 }
 
+.row:before,
+.row:after,
 .container:before,
 .container:after,
 .clearfix:before,
@@ -34,7 +54,7 @@ body{
 	line-height: 24px;
 	color: #000;
 	font-weight: normal;
-	font-family: PTSans Regular;
+	font-family: Cuprum-Regular, PTSans Regular;
 }
 
 h1{
@@ -81,15 +101,7 @@ h2{
 }
 
 .row{
-	margin-top: 20px;
-}
-
-.row:first-of-type{
-	margin-top: 0px;
-}
-
-.row:last-of-type{
-	margin-bottom: 42px;
+	width: 100%;
 }
 
 .col9{
@@ -138,6 +150,10 @@ h2{
 	padding-right: 10px;
 }
 
+.col-offset-1 {
+    margin-left: 8%;
+}
+
 .page-footer{
 	padding: 0;
 
@@ -181,33 +197,35 @@ main > div:first-child{
 	position: relative;
 	width: 300px;
 	height: 122px;
-	padding-top: 20px;
-	padding-left: 20px;
-	font-size: 24px;
+	padding-top: 23px;
+	padding-left: 22px;
+	letter-spacing: 1px;
+	font-size: 23px;
 	color: white;
 	background-color: green;
 }
 
 .category-intro > .btn{
 	position: absolute;
-	bottom: 20px;
-	left: 20px;
+	bottom: 22px;
+	left: 24px;
 	width: 135px;
 	height: 37px;
 	font-size: 14px;
+	letter-spacing: 0px;
 	background-color: rgba(0,0,0,0.2);
 	border-radius: 3px;
 }
 
 .yellow{
 	float: left;
-	background: #f6b22d url("../img/formenu/yellow.png") no-repeat 85% 50%;
+	background: #f6b22d url("../img/formenu/yellow.png") no-repeat 212px 50%;
 }
 
 .blue{
 	float: left;
 	margin-left: 20px;
-	background: #4aafde url("../img/formenu/blue.png") no-repeat 85% 50%;
+	background: #4aafde url("../img/formenu/blue.png") no-repeat 198px 50%;
 }
 
 .pink{
@@ -235,6 +253,43 @@ main > div:first-child{
 	overflow: hidden;
 }
 
+.slide{
+	position: relative;
+	width: 100%;
+	height: 265px;
+	padding-left: 25px;
+}
+
+.slide-header{
+	color: white;
+}
+
+.slide-header h2{
+	margin-bottom: 0px;
+	color: white;
+}
+
+.slide-header h4{
+	margin-top: 0px;
+	color: white;
+}
+
+.slide .btn{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+.drills{
+	background-image: url("../img/slider/img-slider-2.jpg");
+	background-repeat: no-repeat;
+}
+
+.hammers{
+	background-image: url("../img/slider/img-slider-1.jpg");
+	background-repeat: no-repeat;
+}
+
 .info-blocks{
 	padding-bottom: 30px;
 }
@@ -242,18 +297,29 @@ main > div:first-child{
 .popular-header{
 	position: relative;
 
-	padding-left: 30px;
-	padding-top: 25px;
-	padding-right: 30px;
+	padding-right: 28px;
 	margin-top: 25px;
 	margin-bottom: 20px;
 	height: 88px;
 	line-height: 34px;
 
+	background-color: #f7f3ec;
+}
+
+.popular-header h2{
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-left: 30px;
+	padding-top: 25px;
+	width: 50%;
+	font-family: Cuprum-Regular;
 	text-transform: uppercase;
 	font-size: 30px;
+}
 
-	background-color: #f7f3ec;
+.popular-header .btn{
+	margin-top: 25px;
 }
 
 .btn{
@@ -278,11 +344,11 @@ main > div:first-child{
     float: right;
 }
 
-.red{
+.btn-red{
 	background-color: #ee3643;
 }
 
-.long{
+.btn-long{
 	width: 253px;
 }
 
@@ -307,18 +373,20 @@ main > div:first-child{
 
 .item-price-old{
 	display: block;
+	margin-top: 10px;
 	text-decoration: line-through;
 }
 
 .item-price-new{
-	position: relative;
+	position: absolute;
+	bottom: 20px;
+	left: 40px;
 	display: block;
 	margin: 0 auto;
-	width: 70%;
+	width: 120px;
 	height: 38px;
 	line-height: 38px;
 	color: white;
-
 	background-color: #ee3643;
 }
 
@@ -357,20 +425,37 @@ main > div:first-child{
 	vertical-align: middle;
 }
 
+.brand:hover{
+	cursor: pointer;
+	box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+}
+
+.brand:active{
+	cursor: pointer;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+	opacity: 0.4;
+}
+
 .item-card{
+	position: relative;
 	height: 316px;
 }
 
 .item-img-wrap{
 	width: 100%;
 	height: 160px;
+	line-height: 160px;
 	background-color: white;
 }
 
-.content-brands > img, .brand > img{
+.item-name{
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.item-img-wrap > img, .brand > img{
 	max-width: 100%;
-	display: block;
-	margin: 0 auto;
+	vertical-align: middle;
 }
 
 .content-row.services{
@@ -412,10 +497,35 @@ main > div:first-child{
 }
 
 .tabs-body{
+	position: relative;
 	float: right;
 	padding-left: 85px;
 	overflow: hidden;
 	height: 300px;
+}
+
+.tab{
+	display: none;
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	height: 300px;
+}
+
+.tab.active{
+	display: block;
+}
+
+.delivery{
+	background: url("../img/service-delivery.png") 150px 52px no-repeat;
+}
+
+.guarantee{
+	background: url("../img/service-guarantee.png") 150px 52px no-repeat;
+}
+
+.credit{
+	background: url("../img/service-credit.png") 150px 52px no-repeat;
 }
 
 .descr{
@@ -456,20 +566,17 @@ main > div:first-child{
 }
 
 .logo{
+	box-sizing: border-box;
 	float: left;
 	width: 220px;
 	text-align: center;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: white;
+	font-size: 26px;
 
 	background-color: #ee3643;
-}
-
-.logo-btm{
-	font-size: 32px;
-	line-height: 64px;
-	height: 64px;
+	box-shadow: 0px 5px 0px #b52933;
 }
 
 form.search{
@@ -483,7 +590,7 @@ form.search > *{
 }
 
 form.search .search-input{
-	width: 230px;
+
 }
 
 .info-panel{
@@ -510,31 +617,36 @@ form.search .search-input{
 }
 
 .header-middle > *{
-	box-sizing: border-box;
-	width: 313.333333px;
-	height: 155px;
-	float: left;
+
 }
 
 .header-desc{
-	padding-top: 50px;
-	padding-left: 50px;
-	line-height: 22px;
+	padding-top: 30px;
+	padding-left: 40px;
 	color: #ee434f;
+	font-family: PTSans;
+	font-style: italic;
+	font-size: 17px;
+	letter-spacing: -1px;
 }
 
 .header-contacts{
 	padding-top: 50px;
-	text-align: center;
 	color: #32425c;
 }
 
 .header-contacts .phone{
 	width: 100%;
 	padding: 4px;
-	font-size: 24px;
+	margin-bottom: 9px;
+	font-size: 22px;
 	border: 2px solid grey;
+	text-align: center;
 	color: #e9292a;
+}
+
+.header-contacts span{
+	margin-left: 16px;
 }
 
 .no-auth{
@@ -554,14 +666,17 @@ form.search .search-input{
 	background-color: white;
 }
 
+.main-menu{
+	box-shadow: 0px 5px 0px #293449;
+}
+
 .main-menu-list{
 	display: table;
 	margin: auto;
 	width: 100%;
-	height: 55px;
 	padding: 0px 10px;
 	line-height: 55px;
-	font-size: 20px;
+	font-size: 17px;
 	list-style: none;
 
 	background-color: #32425c;
@@ -570,7 +685,8 @@ form.search .search-input{
 .main-menu li{
 	text-align: center;
 	float: left;
-	padding-left: 38px;
+	padding-left: 40px;
+	padding-right: 20px;
 }
 
 .main-menu li a{
@@ -585,11 +701,11 @@ form.search .search-input{
 	padding-bottom: 45px;
 }
 
-.top{
+.footer-top{
 	background-color: #32425c;
 }
 
-.bottom{
+.footer-bottom{
 	width: 100%;
 	padding: 16px 0;
 	background-color: #293449;
@@ -622,4 +738,48 @@ form.search .search-input{
 	padding-right: 38px;
 	font-size: 18px;
 	line-height: 40px;
+}
+
+.social{
+	  display: table;
+	  margin: auto;
+	  margin-top: 20px;
+	  position: relative;
+	  left: -10px;
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social li{
+	float: left;
+	margin-left: 5px;
+}
+
+.social a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	background-color: #212a3a;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+}
+
+.social .vk{
+	background: url("../img/icons/social-vk.jpg") 50% 50% no-repeat;
+}
+
+.social .fb{
+	background: url("../img/icons/social-fb.jpg") 50% 50% no-repeat;
+}
+
+.social .in{
+	background: url("../img/icons/social-in.jpg") 50% 50% no-repeat;
+}
+
+
+.social li:first-child{
+	margin-left: 0px;
 }

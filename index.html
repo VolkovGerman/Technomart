@@ -5,16 +5,17 @@
 	<title>Technomart</title>
 
 	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/owl.carousel.css">
 </head>
 <body>
 	<div class="page-wrapper">
 		<header class="page-header">
 			<div class="header-top">
-				<div class="container clearfix">
+				<div class="container">
 					<a class="logo" href="#">Техномарт</a>
 					<form class="search clearfix">
 						<input class="search-input" type="text" value="Поиск">
-						<button type="submit-button">S</button>
+						<button type="search-submit-btn">Поиск</button>
 					</form>
 					<div class="info-panel clearfix">
 						<a class='info-bookmarks'>Закладки: <span id="bookmark-counter">0</span></a>
@@ -24,19 +25,27 @@
 				</div>
 			</div>
 			<div class="header-mid">
-				<div class="container clearfix">
+				<div class="container">
 					<div class="header-middle">
-						<div class="header-desc">
-							Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта
-						</div>
-						<div class="header-contacts">
-							<div class="phone">+7 (812) 555-05-55</div>
-							г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-						</div>
-						<div class="account">
-							<div class="no-auth">
-								<a href="#" class="registration">Регистрация</a>
-								<a href="#" class="enter">Войти</a>
+						<div class="row">
+							<div class="col4">
+								<p class="header-desc">
+									Интернет-магазин<br>строительных материалов<br>и инструментов для ремонта
+								</p>
+							</div>
+							<div class="col4">
+								<div class="header-contacts">
+									<div class="phone">+7 (812) 555-05-55</div>
+									<span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
+								</div>
+							</div>
+							<div class="col4">
+								<div class="account">
+									<div class="no-auth">
+										<a href="#" class="registration">Регистрация</a>
+										<a href="#" class="enter">Войти</a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -55,7 +64,7 @@
 			</div>
 		</header>
 		<main class="page-content">
-			<div class="container clearfix">
+			<div class="container">
 				<div class="content-row">
 					<section class="info-blocks clearfix">
 						<div class="category-intro yellow">
@@ -80,28 +89,24 @@
 						</div>
 						<div class="slider">
 							<div class="slides">
-								<div class="slide dreli">
+								<div class=" item slide drills clearfix">
 									<header class="slide-header">
 										<h2>Дрели</h2>
 										<h4>Соседям на радость!</h4>
 									</header>
-									<a href="#" class="btn red">Открыть каталог</a>
+									<a href="#" class="btn btn-red">Открыть каталог</a>
 								</div>
-								<div class="slide perforatori">
+								<div class="item slide hammers clearfix">
 									<header class="slide-header">
 										<h2>Перфораторы</h2>
 										<h4>Настоящие мужские игрушки</h4>
 									</header>
-									<a href="#" class="btn red pull-left">Открыть каталог</a>
+									<a href="#" class="btn btn-red pull-left">Открыть каталог</a>
 								</div>
 							</div>
 							<div class="arrows-bullets">
-								<a href="#" class="arrow left">
-									<img src="img/icons/icon-left.jpg" height="40" width="22" alt="left">
-								</a>
-								<a href="#" class="arrow right">
-									<img src="img/icons/icon-right.jpg" height="40" width="22" alt="right">
-								</a>
+								<a href="#" class="arrow left"></a>
+								<a href="#" class="arrow right"></a>
 								<div class="bullets">
 									<a href="#" class="bullet"></a>
 									<a href="#" class="bullet"></a>
@@ -110,21 +115,21 @@
 						</div>
 					</section>
 					<section class="popular clearfix">
-						<header class="popular-header">
-							Популярные товары:
-							<a href="#" class="btn red long pull-right">Все популярные товары</a>
+						<header class="popular-header clearfix">
+							<h2>Популярные товары:</h2>
+							<a href="#" class="btn btn-red btn-long pull-right">Все популярные товары</a>
 						</header>
 						<div class="content-items">
 							<article class="item-card">
 								<div class="item-img-wrap">
 									<img src="img/instruments/p9000.jpg" height="164" width="184" alt="перфоратор">
 								</div>
-								<p class="name">
+								<p class="item-name">
 									Перфоратор BOSCH<br>BFG 9000
 								</p>
 								<span class="item-price-old">32 500 Р.</span>
 								<a href="#" class="item-price-new">25 500 Р.</a>
-								<div class="action-btns">
+								<div class="item-action-btns">
 									<a href="#" class="btn buy">Купить</a>
 									<a href="#" class="btn bookmark">В закладки</a>
 								</div>
@@ -174,9 +179,9 @@
 						</div>
 					</section>
 					<section class="popular clearfix">
-						<header class="popular-header">
-							Популярные производители:
-							<a href="#" class="btn red long pull-right">Все производители</a>
+						<header class="popular-header clearfix">
+							<h2>Популярные производители:</h2>
+							<a href="#" class="btn btn-red btn-long pull-right">Все производители</a>
 						</header>
 						<div class="content-brands">
 							<a class="brand">
@@ -208,16 +213,16 @@
 				</div>
 			</div>
 			<section class="content-row services">
-				<div class="container clearfix">
+				<div class="container">
 					<h2>Сервисы</h2>
 					<p>
 						Хороший интернет-магазин отличается от плохого не только ценами! <br> Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
 					</p>
 					<div class="services-tabs clearfix">
 						<ul class="tabs-nav col3">
-							<li class="active">Доставка</li>
-							<li>Гарантия</li>
-							<li>Кредит</li>
+							<li class="active"><a href="#">Доставка</a></li>
+							<li><a href="#">Гарантия</a></li>
+							<li><a href="#">Кредит</a></li>
 						</ul>
 						<div class="tabs-body col9">
 							<div class="tab delivery active">
@@ -230,7 +235,8 @@
 								<h2>Гарантия</h2>
 								<p>
 									Если купленный у нас товар поломается или заискрит,<br>
-									а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>
+									а также в случае пожара, спровоцированного его возгаранием,<br>
+									вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>
 									Дом уж восстановите как-нибудь сами.
 								</p>
 							</div>
@@ -246,33 +252,39 @@
 				</div>
 			</section>
 			<div class="content-row descr">
-				<div class="container clearfix">
-					<div class="descr-left col7">
-						<h2>Компания "Техномарт"</h2>
-						<p>
-							Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушным любителей сэкономить на гастарбайтерах.
-						</p>
-						<p>
-							Мы можем доставить ваш товар в самые отдаленные точки России!<br>
-							Техномарт работает со многими транспортными компаниями.
-						</p>
-						<ul class="auto">
-							<li>Деловые линии</li>
-							<li>Автотрейдинг</li>
-							<li>ЖелДорЭкспедиция</li>
-						</ul>
-						<a href="#" class="btn red">Подробнее о компании</a>
-					</div>
-					<div class="contacts-right col4">
-						<h2>Контакты</h2>
-						<p>
-							Вы можете забрать товар сами,<br>
-							заехав в наш офис:
-						</p>
-						<div class="map">
-							<img class="map-img" src="img/map-small.jpg" height="158" width="300" alt="карта">
+				<div class="container">
+					<div class="row">
+						<div class="col7">
+							<div class="descr-left">
+								<h2>Компания "Техномарт"</h2>
+								<p>
+									Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушным любителей сэкономить на гастарбайтерах.
+								</p>
+								<p>
+									Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+									Техномарт работает со многими транспортными компаниями.
+								</p>
+								<ul class="auto">
+									<li>Деловые линии</li>
+									<li>Автотрейдинг</li>
+									<li>ЖелДорЭкспедиция</li>
+								</ul>
+								<a href="#" class="btn btn-red">Подробнее о компании</a>
+							</div>
 						</div>
-						<a href="#" class="btn red" style="margin-top: 36px;">Заблудились? Напишите нам!</a>
+						<div class="col4 col-offset-1">
+							<div class="contacts-right">
+								<h2>Контакты</h2>
+								<p>
+									Вы можете забрать товар сами,<br>
+									заехав в наш офис:
+								</p>
+								<div class="map">
+									<img class="map-img" src="img/map-small.jpg" height="158" width="300" alt="карта">
+								</div>
+								<a href="#" class="btn btn-red" style="margin-top: 36px;">Заблудились? Напишите нам!</a>
+							</div>
+						</div>
 					</div>
 					<div class="big-map-wrap">
 						<img src="img/map-big.jpg" height="476" width="970" alt="большая карта" class="big-map">
@@ -281,11 +293,11 @@
 			</div>
 		</main>
 		<footer class="page-footer">
-			<div class="top">
-				<div class="container clearfix">
+			<div class="footer-top">
+				<div class="container">
 					<div class="row">
 						<div class="col5">
-							<div class="left">
+							<div class="footer-contacts">
 								<div class="logo-wrap">
 									<a class="logo logo-btm" href="#">Техномарт</a>
 								</div>
@@ -315,18 +327,18 @@
 					</div>
 				</div>
 			</div>
-			<div class="bottom">
-				<div class="container clearfix">
+			<div class="footer-bottom">
+				<div class="container">
 					<div class="row">
 						<div class="col4">
-							<div class="copyrite technomart">
+							<div class="copyright technomart">
 								2010-2015 Компания "Техномарт"<br>
 								Все права защищены
 							</div>
 						</div>
 						<div class="col4">
 							<div class="social">
-								<ul>
+								<ul class="clearfix">
 									<li><a href="#" class="vk">VK</a></li>
 									<li><a href="#" class="fb">Facebook</a></li>
 									<li><a href="#" class="in">Instagram</a></li>
@@ -336,7 +348,7 @@
 						<div class="col2">
 							<div class="feedback">
 								<p>
-									Обратная связь -
+									Обратная связь:
 								</p>
 								<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
 							</div>
@@ -356,17 +368,17 @@
 	</div>
 	<div class="mail popup">
 		<a href="#" class="btn-close"></a>
-		<form class="mail-form">
+		<form class="mail-form" action="#">
 			<div class="half-width">
 				<label>Ваше имя</label>
-				<input type='text' class="send-name" placeholder="Представьтесь, пожалуйста">
+				<input name="name" type='text' class="send-name" placeholder="Представьтесь, пожалуйста">
 			</div>
 			<div class="half-width">
 				<label>Ваш e-mail:</label>
-				<input type="email" class="send-email" placeholder="Для отправки ответа">
+				<input name="email" type="email" class="send-email" placeholder="Для отправки ответа">
 			</div>
 	   		<label>Текст письма:</label>
-	   		<textarea class="send-text" placeholder="В свободной форме"></textarea>
+	   		<textarea name="text" class="send-text" placeholder="В свободной форме"></textarea>
     		<div class="buttons">
 	    		<input type="submit" class="btn" value="Отправить">
 				<input type="reset" class="btn white" value="Отмена">
@@ -389,5 +401,12 @@
 	      });
 	    </script>
 	<!-- / PixLayout -->
+		<script src="_assets/owl.carousel.min.js"></script>
+		<script type="text/javascript">
+			owl = $(".slides");
+			$(document).ready(function(){
+				owl.owlCarousel({nav:true,items: 1});
+			});
+		</script>
 </body>
 </html>
