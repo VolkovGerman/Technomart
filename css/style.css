@@ -31,11 +31,11 @@
 
  @font-face {
   font-family: 'symbols-technomart';
-  src: url('../font/symbols-technomart.eot?22619757');
-  src: url('../font/symbols-technomart.eot?22619757#iefix') format('embedded-opentype'),
-       url('../font/symbols-technomart.woff?22619757') format('woff'),
-       url('../font/symbols-technomart.ttf?22619757') format('truetype'),
-       url('../font/symbols-technomart.svg?22619757#symbols-technomart') format('svg');
+  src: url('../fonts/symbols-technomart.eot?22619757');
+  src: url('../fonts/symbols-technomart.eot?22619757#iefix') format('embedded-opentype'),
+       url('../fonts/symbols-technomart.woff?22619757') format('woff'),
+       url('../fonts/symbols-technomart.ttf?22619757') format('truetype'),
+       url('../fonts/symbols-technomart.svg?22619757#symbols-technomart') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -83,7 +83,7 @@
 
 .icon-left:before { content: '\3c'; } /* '&lt;' */
 .icon-right:before { content: '\3e'; } /* '&gt;' */
-.icon-basket:before { content: '\62'; } /* 'b' */
+.icon-basket:before { content: '\62'; position: absolute; left: 12px; top: 12px;} /* 'b' */
 .icon-facebook:before { content: '\66'; } /* 'f' */
 .icon-twitter:before { content: '\74'; } /* 't' */
 .icon-vk:before { content: '\76'; } /* 'v' */
@@ -91,7 +91,7 @@
 .icon-down:before { content: '\2c5'; } /* '˅' */
 .icon-left-big:before { content: '\2190'; } /* '←' */
 .icon-right-big:before { content: '\2192'; } /* '→' */
-.icon-login:before { content: '\2386'; } /* '⎆' */
+.icon-login:before { content: '\2386';  position: absolute; left: 9px; top: 11px;} /* '⎆' */
 .icon-logout:before { content: '\241b'; } /* '␛' */
 .icon-up-dir:before { content: '\25b2'; } /* '▲' */
 .icon-down-dir:before { content: '\25bc'; } /* '▼' */
@@ -103,10 +103,10 @@
 .icon-youtube:before { content: '\f39e'; } /* '' */
 .icon-home:before { content: '🏠'; } /* '\1f3e0' */
 .icon-user:before { content: '👨'; } /* '\1f468' */
-.icon-phone:before { content: '📞'; } /* '\1f4de' */
+.icon-phone:before { content: '📞'; position: absolute; left: 38px; top: 11px;} /* '\1f4de' */
 .icon-instagramm:before { content: '📷'; } /* '\1f4f7' */
 .icon-search:before { content: '🔍'; } /* '\1f50d' */
-.icon-bookmark:before { content: '🔖'; } /* '\1f516' */
+.icon-bookmark:before { content: '🔖'; position: absolute; left: 12px; top: 12px;} /* '\1f516' */
 
 /****************************** /ИКОНОЧНЫЙ ШРИФТ *****************************/
 
@@ -599,6 +599,18 @@ main > div:first-child{
 	min-height: 300px;
 }
 
+.services h2{
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+
+.tab h2{
+	font-size: 35px;
+	margin-bottom: 22px;
+	margin-top: 24px;
+	color: #32425c;
+}
+
 .tabs-nav{
 	padding: 30px 0;
 	margin-right: -20px;
@@ -627,7 +639,7 @@ main > div:first-child{
 
 .tabs-body{
 	position: relative;
-	padding-left: 85px;
+	padding-left: 80px;
 	overflow: hidden;
 	height: 300px;
 }
@@ -788,6 +800,7 @@ form.search .search-submit-btn{
 .info-panel .info-cart, .info-panel .info-bookmarks, .info-panel .order-btn{
 	float: left;
 	width: 150px;
+	position: relative;
 }
 
 .info-panel .order-btn{
@@ -824,6 +837,7 @@ form.search .search-submit-btn{
 }
 
 .header-contacts .phone{
+	position: relative;
 	width: 270px;
 	padding: 8px;
 	padding-left: 37px;
@@ -860,6 +874,7 @@ form.search .search-submit-btn{
 }
 
 .account .enter{
+	position: relative;
 	width: 120px;
   	padding-left: 46px;
 }
