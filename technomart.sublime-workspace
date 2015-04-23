@@ -4,6 +4,74 @@
 		"selected_items":
 		[
 			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"fo",
+				"font-variant"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"C",
+				"Cuprum-Bold.ttf"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
 				"ta",
 				"table-cell"
 			],
@@ -12,36 +80,12 @@
 				"text-decoration"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
-				"ba",
-				"background-color"
-			],
-			[
-				"ma",
-				"margin-top"
-			],
-			[
 				"min",
 				"min-height"
 			],
 			[
-				"pad",
-				"padding-left"
-			],
-			[
 				"font-s",
 				"font-size"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
-				"li",
-				"list-style"
 			],
 			[
 				"paddi",
@@ -124,10 +168,6 @@
 				"input"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"hea",
 				"header	Tag"
 			],
@@ -147,7 +187,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13802,
+				"buffer_size": 14465,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,15 +195,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 8136,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "catalog.html",
-			"settings":
-			{
-				"buffer_size": 13318,
+				"buffer_size": 10652,
 				"line_ending": "Windows"
 			}
 		}
@@ -215,6 +247,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/catalog.html",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css/owl.carousel.css",
 		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/barbershop/catalog.html",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/barbershop/index.html",
@@ -270,6 +304,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"copyrite",
+			"top",
+			"left",
+			"Доставка",
+			"red",
+			"long",
+			"btn",
+			"popular-header",
+			"arrows-bullets",
+			"perforatori",
+			"dreli",
+			"bottom",
+			"contacts-right",
+			"submit-button",
+			"container clearfix",
+			"font-size",
 			".top",
 			"top",
 			"footer-menu-list",
@@ -307,6 +357,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"btn-red",
+			"btn-long",
+			"popular-header clearfix",
+			"hammers",
+			"drills",
+			"container",
 			"<article class=\"item clearfix\">",
 			"<div class=\"row clearfix\">",
 			"<div class=\"row clearfix\"",
@@ -326,7 +382,7 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
@@ -341,15 +397,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13802,
+						"buffer_size": 14465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4421,
-								4416
+								12202,
+								12202
 							]
 						],
 						"settings":
@@ -362,7 +418,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2001.0,
+						"translation.y": 5939.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -374,15 +430,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8136,
+						"buffer_size": 10652,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4794,
-								4794
+								9027,
+								9027
 							]
 						],
 						"settings":
@@ -395,43 +451,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6263.0,
+						"translation.y": 11682.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "catalog.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								190,
-								190
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -488,7 +511,7 @@
 	"project": "technomart.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
