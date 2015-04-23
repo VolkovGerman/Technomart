@@ -638,14 +638,26 @@ form.search .search-input{
 
 .info-panel{
 	float: right;
+	font-size: 17px;
 }
 
 .info-panel .info-cart, .info-panel .info-bookmarks, .info-panel .order-btn{
 	box-sizing: border-box;
 	float: left;
-	padding-right: 30px;
 	width: 150px;
-	text-align: right;
+}
+
+.info-panel .order-btn{
+	padding-left: 20px;
+	background-color: #63a63e;
+}
+
+.info-panel .info-cart{
+	padding-left: 49px;
+}
+
+.info-panel .info-bookmarks{
+	padding-left: 44px;
 }
 
 .header-mid{
@@ -753,10 +765,32 @@ form.search .search-input{
 	width: 100%;
 	padding: 16px 0;
 	background-color: #293449;
+	font-size: 16px;
+}
+
+.footer-bottom a{
+	color: #d6b479;
+}
+
+.feedback {
+	line-height: 18px;
+}
+
+.copyright, .madeby{
+	line-height: 18px;
+	margin-top: 10px;
+}
+
+.feedback p, .madeby p{
+	margin: 10px 0 0 0;
 }
 
 .page-footer .col7{
 	padding: 0;
+}
+
+.madeby{
+	margin-left: 28px;
 }
 
 .menus{
