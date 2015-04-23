@@ -62,7 +62,7 @@ h1{
 	line-height: 30px;
 	color: #576376;
 	font-weight: normal;
-	font-family: Cuprum Regular;
+	font-family: Cuprum-Regular;
 	text-transform: uppercase;
 }
 
@@ -71,7 +71,7 @@ h2{
 	line-height: 42px;
 	color: #000;
 	font-weight: normal;
-	font-family: Cuprum Regular;
+	font-family: Cuprum-Regular;
 	text-transform: uppercase;
 }
 
@@ -91,6 +91,7 @@ h2{
 	box-sizing: border-box;
     width: 960px;
     margin: 0 auto;
+    background-color: rgba(0,0,0,0.2);
     padding: 0 10px;
 }
 
@@ -108,6 +109,7 @@ h2{
 .col5, .col6, .col7, .col8,
 .col9, .col10, .col11, .col12 {
     float: left;
+    padding: 0 10px;
 }
 
 .col1{
@@ -159,7 +161,7 @@ h2{
 }
 
 .col-offset-2 {
-    margin-left: 12.5%;
+    margin-left: 8.33%;
 }
 
 .pull-left {
@@ -168,10 +170,6 @@ h2{
 
 .pull-right {
     float: right;
-}
-
-.col-offset-1 {
-    margin-left: 8%;
 }
 
 .page-footer{
@@ -202,7 +200,7 @@ a{
 /**************** index *************************/
 
 main{
-	padding-bottom: 85px;
+
 }
 
 main > div:first-child{
@@ -210,7 +208,8 @@ main > div:first-child{
 }
 
 .page-content{
-	padding-top: 60px;
+	padding-top: 50px;
+	padding-bottom: 75px;
 }
 
 .category-intro{
@@ -231,7 +230,6 @@ main > div:first-child{
 	width: 135px;
 	height: 37px;
 	font-size: 14px;
-	letter-spacing: 0px;
 	background-color: rgba(0,0,0,0.2);
 	border-radius: 3px;
 }
@@ -253,6 +251,7 @@ main > div:first-child{
 }
 
 .category-intro.orange{
+	margin-top: 20px;
 	background: #f6b22d url("../img/formenu/orange.png") no-repeat 85% 50%;
 }
 
@@ -300,7 +299,7 @@ main > div:first-child{
 }
 
 .info-blocks{
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 }
 
 .popular-header{
@@ -319,8 +318,8 @@ main > div:first-child{
 	float: left;
 	margin: 0;
 	padding: 0;
-	padding-left: 30px;
-	padding-top: 25px;
+	padding-left: 24px;
+	padding-top: 22px;
 	width: 50%;
 	font-family: Cuprum-Regular;
 	text-transform: uppercase;
@@ -337,20 +336,12 @@ main > div:first-child{
 	width: 220px;
 	height: 37px;
 	font-size: 16px;
-	line-height: 37px;
+	line-height: 39px;
 
 	text-align: center;
 	color: white;
 	text-transform: uppercase;
 	border-radius: 3px;
-}
-
-.pull-left {
-    float: left;
-}
-
-.pull-right {
-    float: right;
 }
 
 .btn-red{
@@ -477,37 +468,39 @@ main > div:first-child{
 }
 
 .services-tabs{
-	margin-top: 42px;
+	margin-top: 36px;
 	width: 100%;
 	min-height: 300px;
 }
 
 .tabs-nav{
-	float: left;
 	padding: 30px 0;
+	margin-right: -20px;
 	list-style: none;
 }
 
-.tabs-nav li{
+.tabs-nav ul{
+	width: 100%;
+}
+
+.tabs-nav li a{
 	padding-left: 20px;
 	color: white;
 	display: block;
 	height: 60px;
 	line-height: 60px;
 	text-transform: uppercase;
-	width: 102%;
 	background-color: #32425c;
 	border-bottom: ;
 }
 
-.tabs-nav li.active{
+.tabs-nav li.active a{
 	color: #32425c;
 	background-color: white;
 }
 
 .tabs-body{
 	position: relative;
-	float: right;
 	padding-left: 85px;
 	overflow: hidden;
 	height: 300px;
@@ -539,7 +532,48 @@ main > div:first-child{
 
 .descr{
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 40px;
+}
+
+.descr h2{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+.descr p + p{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.map + .btn{
+	margin-top: 34px;
+	width: 100%;
+}
+
+.auto{
+	padding-left: 35px;
+	font-size: 18px;
+	list-style: none;
+}
+
+.auto li{
+	position: relative;
+}
+
+.auto li:before{
+	position: absolute;
+	top: 19px;
+	left: -35px;
+	content: "";
+	display: block;
+	width: 25px;
+	height: 2px;
+	background-color: #fb565a;
+}
+
+.auto + .btn{
+	margin-top: 26px;
 }
 
 .descr-left{
@@ -621,24 +655,24 @@ form.search .search-input{
 }
 
 .header-desc{
-	padding-top: 30px;
-	padding-left: 40px;
+	padding-top: 20px;
+	padding-left: 50px;
 	color: #ee434f;
 	font-family: PTSans;
 	font-style: italic;
 	font-size: 17px;
-	letter-spacing: -1px;
 }
 
 .header-contacts{
-	padding-top: 50px;
+	padding-top: 36px;
 	color: #32425c;
 }
 
 .header-contacts .phone{
-	width: 100%;
-	padding: 4px;
-	margin-bottom: 9px;
+	width: 270px;
+	padding: 8px;
+	padding-left: 37px;
+	margin-bottom: 5px;
 	font-size: 22px;
 	border: 2px solid grey;
 	text-align: center;
@@ -646,35 +680,43 @@ form.search .search-input{
 }
 
 .header-contacts span{
-	margin-left: 16px;
+	margin-left: 8px;
 }
 
 .no-auth{
-	margin-top: 45px;
+	margin-top: 37px;
 	color: #32425c;
 }
 
 .no-auth > *{
 	display: inline-block;
 	float: right;
-	margin-left: 10px;
-	padding: 10px 30px;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: grey;
+	line-height: 44px;
+	font-size: 20px;
 
+	color: grey;
 	background-color: white;
 }
 
+.account .registration{
+	width: 150px;
+	margin-left: 10px;
+	padding-left: 24px;
+}
+
+.account .enter{
+	width: 120px;
+  	padding-left: 46px;
+}
+
 .main-menu{
+	margin-top: 12px;
 	box-shadow: 0px 5px 0px #293449;
 }
 
 .main-menu-list{
 	display: table;
-	margin: auto;
 	width: 100%;
-	padding: 0px 10px;
 	line-height: 55px;
 	font-size: 17px;
 	list-style: none;
@@ -683,25 +725,27 @@ form.search .search-input{
 }
 
 .main-menu li{
-	text-align: center;
-	float: left;
-	padding-left: 40px;
-	padding-right: 20px;
+	display: table-cell;
 }
 
 .main-menu li a{
+	display: block;
 	color: white;
+	text-align: center;
+	padding: 0 30px;
 }
 
 /****** footer ********/
 
 .footer-contact{
 	clear: both;
-	padding-top: 35px;
-	padding-bottom: 45px;
+	padding-top: 32px;
+	font-size: 18px;
+	padding-left: 2px;
 }
 
 .footer-top{
+	padding-bottom: 50px;
 	background-color: #32425c;
 }
 
@@ -716,13 +760,20 @@ form.search .search-input{
 }
 
 .menus{
-	margin-top: 40px;
+	margin-top: 37px;
+}
+
+.footer-info .logo{
+	height: 63px;
+  	line-height: 65px;
+  	font-size: 32px;
 }
 
 .footer-menu-list, .footer-bottom-menu-list{
 	display: table;
-	margin: auto;
+	width: 100%;
 	list-style: none;
+	margin-top: 34px;
 }
 
 .footer-menu-list a{
@@ -734,10 +785,16 @@ form.search .search-input{
 }
 
 .footer-menu-list li, .footer-bottom-menu-list li{
-	float: left;
-	padding-right: 38px;
+	display: table-cell;
 	font-size: 18px;
-	line-height: 40px;
+}
+
+.footer-menu-list li{
+	padding-left: 19px;
+}
+
+.footer-bottom-menu-list li{
+	padding-left: 39px;
 }
 
 .social{
@@ -782,4 +839,8 @@ form.search .search-input{
 
 .social li:first-child{
 	margin-left: 0px;
+}
+
+.footer-top .row{
+	padding: 0;
 }
