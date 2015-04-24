@@ -4,24 +4,36 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
 				"ac",
 				"action	Attr"
 			],
 			[
 				"pad",
 				"padding"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
-				"ma",
-				"margin-top"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"i",
@@ -62,14 +74,6 @@
 			[
 				"no",
 				"no-repeat"
-			],
-			[
-				"ba",
-				"background"
-			],
-			[
-				"li",
-				"line-height"
 			],
 			[
 				"ta",
@@ -187,7 +191,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 14465,
+				"buffer_size": 14752,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,7 +199,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 10652,
+				"buffer_size": 20750,
 				"line_ending": "Windows"
 			}
 		}
@@ -243,12 +247,14 @@
 	"expanded_folders":
 	[
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart",
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css"
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/fonts"
 	],
 	"file_history":
 	[
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/catalog.html",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css/owl.carousel.css",
+		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/catalog.html",
 		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/barbershop/catalog.html",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/barbershop/index.html",
@@ -304,6 +310,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"min-height",
+			"tab",
+			"services",
+			".phone",
+			".input-search",
+			"search-btn",
+			"icon-search",
+			"se",
+			".searc",
+			"form.searc",
+			"form.sea",
+			"Cuprum-Regular",
+			"box-sizing:",
+			"box-sizing: border-box;",
+			"article",
+			"container",
+			"page-co",
+			"+",
+			"btn",
+			"content-row",
+			"letter-spacing:",
+			"line-height:",
+			"container",
+			"footer-contacts",
+			"container",
+			"style",
+			"col",
 			"copyrite",
 			"top",
 			"left",
@@ -357,6 +390,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Cuprum",
 			"btn-red",
 			"btn-long",
 			"popular-header clearfix",
@@ -397,15 +431,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14465,
+						"buffer_size": 14752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12202,
-								12202
+								1306,
+								1306
 							]
 						],
 						"settings":
@@ -418,7 +452,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5939.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -430,15 +464,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10652,
+						"buffer_size": 20750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9027,
-								9027
+								10003,
+								10003
 							]
 						],
 						"settings":
@@ -451,7 +485,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11682.0,
+						"translation.y": 10079.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -553,7 +587,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 130.0,
+	"side_bar_width": 268.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
