@@ -492,11 +492,14 @@ main > div:first-child{
 	height: 316px;
 	display: inline-block;
 	width: 220px;
+	letter-spacing: -1px;
 	margin-left: 20px;
 	border: 1px solid #e5e5e5;
 	vertical-align: top;
 	min-height: 318px;
 	font-size: 18px;
+	font-weight: bold;
+	font-family: PTSans, Arial, Helvetica, sans-serif;
 }
 
 .item-card:nth-child(4n+1){
@@ -512,7 +515,7 @@ main > div:first-child{
 .item-price-new{
 	position: absolute;
 	bottom: 20px;
-	left: 40px;
+	left: 48px;
 	display: block;
 	margin: 0 auto;
 	width: 120px;
@@ -577,7 +580,6 @@ main > div:first-child{
 
 .item-name{
 	font-weight: bold;
-	letter-spacing: 1px;
 	line-height: 20px;
 	margin-bottom: 10px;
 }
