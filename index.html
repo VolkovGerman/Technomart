@@ -69,7 +69,7 @@
 					<section class="info-blocks clearfix">
 						<div class="row">
 							<div class="col4">
-								<div class="category-intro yellow">
+								<div class="category-intro yellow new-item">
 									Материалы
 									<a href="#" class="btn transp materials">На любой вкус</a>
 								</div>
@@ -93,17 +93,17 @@
 									<div class="slides">
 										<div class="item slide slide1 clearfix">
 											<header class="slide-header">
-												<h2>Дрели</h2>
-												<h4>Соседям на радость!</h4>
-											</header>
-											<a href="#" class="btn btn-red">Открыть каталог</a>
-										</div>
-										<div class="item slide slide2 clearfix">
-											<header class="slide-header">
 												<h2>Перфораторы</h2>
 												<h4>Настоящие мужские игрушки</h4>
 											</header>
 											<a href="#" class="btn btn-red pull-left">Открыть каталог</a>
+										</div>
+										<div class="item slide slide2 clearfix">
+											<header class="slide-header">
+												<h2>Дрели</h2>
+												<h4>Соседям на радость!</h4>
+											</header>
+											<a href="#" class="btn btn-red">Открыть каталог</a>
 										</div>
 									</div>
 								</div>
@@ -135,7 +135,7 @@
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
 								<p class="item-name">
-									Перфоратор BOSCH<br>BFG 9000
+									Перфоратор BOSCH BFG&nbsp;9000
 								</p>
 								<span class="item-price-old">32 500 Р.</span>
 								<a href="#" class="item-price-new">25 500 Р.</a>
@@ -148,7 +148,7 @@
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
 								<p class="item-name">
-									Перфоратор BOSCH<br>BFG 3000
+									Перфоратор BOSCH BFG&nbsp;3000
 								</p>
 								<span class="item-price-old">22 500 Р.</span>
 								<a href="#" class="item-price-new">15 500 Р.</a>
@@ -162,12 +162,12 @@
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
 								<p class="item-name">
-									Перфоратор BOSCH<br>BFG 6000
+									Перфоратор BOSCH BFG&nbsp;6000
 								</p>
 								<span class="item-price-old">30 500 Р.</span>
 								<a href="#" class="item-price-new">25 500 P.</a>
 							</article>
-							<article class="item-card">
+							<article class="item-card new-item">
 								<div class="item-img-wrap">
 									<img src="img/instruments/p2000.jpg" height="112" width="127" alt="перфоратор">
 								</div>
@@ -176,9 +176,8 @@
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
 								<p class="item-name">
-									Перфоратор BOSCH<br>BFG 2000
+									Перфоратор BOSCH BFG&nbsp;2000
 								</p>
-								<span class="item-price-old"></span>
 								<a href="#" class="item-price-new">12 500 Р.</a>
 							</article>
 						</div>
@@ -266,7 +265,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col7">
-							<h2>Компания "Техномарт"</h2>
+							<h2>Компания «Техномарт»</h2>
 							<p>
 								Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушным любителей сэкономить на гастарбайтерах.
 							</p>
@@ -291,13 +290,13 @@
 								<div id="smallmap" class="map">
 									<img class="map-img" src="img/map-small.jpg" height="158" width="300" alt="карта">
 								</div>
-								<a href="#" class="btn btn-red">Заблудились? Напишите нам!</a>
+								<a href="#" id="open-form" class="btn btn-red">Заблудились? Напишите нам!</a>
 							</div>
 						</div>
 					</div>
 					<div id="bigmap" class="big-map-wrap">
 						<img src="img/map-big.jpg" height="476" width="970" alt="большая карта" class="big-map">
-						<div class="close-img"></div>
+						<a href="#" class="btn-close"></a>
 					</div>
 				</div>
 			</div>
@@ -376,22 +375,34 @@
 			</div>
 		</footer>
 	</div>
-	<div class="mail popup">
+	<div id="write-to-us" class="mail popup col8">
 		<a href="#" class="btn-close"></a>
 		<form class="mail-form" action="#">
-			<div class="half-width">
-				<label>Ваше имя</label>
-				<input name="name" type='text' class="send-name" placeholder="Представьтесь, пожалуйста">
+			<div class="fields">
+				<div class="row">
+					<div class="col6">
+						<label>Ваше имя</label>
+						<input name="name" type='text' class="send-name" placeholder="Представьтесь, пожалуйста">
+					</div>
+					<div class="col6">
+						<label>Ваш e-mail:</label>
+						<input name="email" type="email" class="send-email" placeholder="Для отправки ответа">
+					</div>
+				</div>
+		   		<label>Текст письма:</label>
+		   		<textarea name="text" class="send-text" placeholder="В свободной форме" rows="4"></textarea>
 			</div>
-			<div class="half-width">
-				<label>Ваш e-mail:</label>
-				<input name="email" type="email" class="send-email" placeholder="Для отправки ответа">
-			</div>
-	   		<label>Текст письма:</label>
-	   		<textarea name="text" class="send-text" placeholder="В свободной форме"></textarea>
-    		<div class="buttons">
-	    		<input type="submit" class="btn" value="Отправить">
-				<input type="reset" class="btn white" value="Отмена">
+    		<div class="buttons-wrap">
+    			<div class="buttons">
+    				<div class="row">
+    					<div class="col6">
+    						<input type="submit" class="btn btn-red" value="Отправить">
+    					</div>
+    					<div class="col6">
+    						<input type="reset" class="btn white" value="Отмена">
+    					</div>
+    				</div>
+    			</div>
 	   		</div>
 		</form>
 	</div>
@@ -415,18 +426,32 @@
 		<script type="text/javascript">
 			owl = $(".slides");
 			$(document).ready(function(){
-				owl.owlCarousel({nav:true,items: 1});
+				owl.owlCarousel({nav:true,items: 1,navText:["",""],navClass:["owl-prev icon-left","owl-next icon-right"],loop: true,dots: true});
 			});
 
 			var bigmap = document.getElementById('bigmap'),
-				smallmap = document.getElementById('smallmap');
+				smallmap = document.getElementById('smallmap'),
+				form = document.getElementById('write-to-us');
 
 			smallmap.addEventListener("mouseover", function(){
 				bigmap.style.display = "block";
 			});
 
-			document.querySelector(".close-img").addEventListener("click", function(){
+			document.querySelector(".big-map-wrap .btn-close").addEventListener("click", function(event){
+				event.preventDefault();
 				bigmap.style.display = "none";
+			});
+
+			var openFormBtn = document.getElementById('open-form');
+
+			openFormBtn.addEventListener("click", function (event){
+				event.preventDefault();
+				form.style.display = "block";
+			});
+
+			document.querySelector(".mail .btn-close").addEventListener("click", function(event){
+				event.preventDefault();
+				form.style.display = "none";
 			});
 
 			var tabsNav = document.querySelector(".tabs-nav");
