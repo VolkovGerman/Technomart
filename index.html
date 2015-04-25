@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Technomart A</title>
+	<title>Technomart</title>
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -17,7 +17,7 @@
 					<a class="logo" href="#">Техномарт</a>
 					<form class="search clearfix">
 						<input class="search-input" type="text" placeholder="Поиск:">
-						<button type="submit" class="search-submit-btn icon-search">Поиск</button>
+						<button type="submit" class="search-submit-btn icon-search"></button>
 					</form>
 					<div class="info-panel clearfix">
 						<a class='info-bookmarks icon-bookmark' href="#">Закладки: <span id="bookmark-counter">0</span></a>
@@ -288,15 +288,16 @@
 									Вы можете забрать товар сами,<br>
 									заехав в наш офис:
 								</p>
-								<div class="map">
+								<div id="smallmap" class="map">
 									<img class="map-img" src="img/map-small.jpg" height="158" width="300" alt="карта">
 								</div>
 								<a href="#" class="btn btn-red">Заблудились? Напишите нам!</a>
 							</div>
 						</div>
 					</div>
-					<div class="big-map-wrap">
+					<div id="bigmap" class="big-map-wrap">
 						<img src="img/map-big.jpg" height="476" width="970" alt="большая карта" class="big-map">
+						<div class="close-img"></div>
 					</div>
 				</div>
 			</div>
@@ -416,6 +417,52 @@
 			$(document).ready(function(){
 				owl.owlCarousel({nav:true,items: 1});
 			});
+
+			var bigmap = document.getElementById('bigmap'),
+				smallmap = document.getElementById('smallmap');
+
+			smallmap.addEventListener("mouseover", function(){
+				bigmap.style.display = "block";
+			});
+
+			document.querySelector(".close-img").addEventListener("click", function(){
+				bigmap.style.display = "none";
+			});
+
+			var tabsNav = document.querySelector(".tabs-nav");
+
+			var i = 0;
+			while (tabsNav.children[i]){
+				tabsNav.children[i].addEventListener("click", function(event){
+					event.preventDefault();
+
+					var tabsNav = document.querySelector(".tabs-nav"),
+						tabsBody = document.querySelector(".tabs-body");
+
+					// Чистка классов active
+					var i = 0;
+					while (tabsNav.children[i]){
+						tabsNav.children[i].classList.remove("active");
+						tabsBody.children[i].classList.remove("active");
+						i++;
+					}
+
+					// Добавляем active к нужным элементам
+					this.classList.add("active");
+
+					// Узнаем номер элемента по списку
+					i = 0;
+					while (tabsNav.children[i]){
+						if (tabsNav.children[i].classList.contains("active")) break;
+						i++;
+					}
+
+					// Добавляем к i-ому элементу класс active
+					tabsBody.children[i].classList.add("active");
+				});
+				i++;
+			};
+
 		</script>
 </body>
 </html>

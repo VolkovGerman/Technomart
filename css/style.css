@@ -113,7 +113,7 @@
 	position: absolute; left: 9px; top: 11px; color: grey;
 }
 .header-mid .icon-phone:before {
-	position: absolute; left: 38px; top: 11px; color: #b7bfc8
+	position: relative; left: -7px; color: #b7bfc8
 }
 .header-top .icon-bookmark:before {
 	position: absolute; left: 12px; top: 12px;
@@ -128,6 +128,7 @@
 *:after,
 *:before{
 	box-sizing: border-box;
+	word-wrap: break-word;
 }
 
 html,
@@ -354,7 +355,7 @@ main > div:first-child{
 .category-intro{
 	position: relative;
 	width: 300px;
-	height: 122px;
+	min-height: 122px;
 	padding-top: 23px;
 	padding-left: 22px;
 	font-family: "Cuprum", "Times New Roman", Times, serif;
@@ -801,6 +802,10 @@ main > div:first-child{
 	padding-top: 54px;
 }
 
+.descr > .container{
+	position: relative;
+}
+
 .descr h2{
 	margin-top: 10px;
 	margin-bottom: 20px;
@@ -858,6 +863,20 @@ main > div:first-child{
 
 .big-map-wrap{
 	display: none;
+	position: absolute;
+  	top: -36px;
+  	left: -6px;
+}
+
+.big-map-wrap .close-img{
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	content: '';
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons/icon-close.jpg) no-repeat 50% 50%;
+	cursor: pointer;
 }
 
 /**************** Общие части *************************/
@@ -865,7 +884,7 @@ main > div:first-child{
 /********* header **********/
 
 .header-top{
-	height: 42px;
+	min-height: 42px;
 	line-height: 42px;
 
 	background-color: #293449;
@@ -904,7 +923,6 @@ form.search{
 
 form.search > *{
 	float: right;
-	height: 42px;
 	border: none;
 	color: white;
 	background-color: rgba(0,0,0,0);
@@ -912,7 +930,7 @@ form.search > *{
 }
 
 form.search .search-input{
-	padding: 12px;
+	padding: 11px;
 	width: 234px;
 	font-size: 17px;
 }
@@ -942,7 +960,7 @@ form.search .search-submit-btn{
 	padding: 0;
 	margin: 0;
 	width: 22px;
-	line-height: 44px;
+	line-height: 42px;
 	box-sizing: content-box;
 	padding-left: 14px;
 }
@@ -996,6 +1014,12 @@ form.search:hover .search-submit-btn{
 	padding-left: 44px;
 }
 
+.info-panel .info-cart:hover,
+.info-panel .info-bookmarks:hover,
+form.search:hover{
+	background-color: #212a3a;
+}
+
 .info-panel .info-cart:active, .info-panel .info-bookmarks:active{
 	background-color: #161d29;
 }
@@ -1016,14 +1040,13 @@ form.search:hover .search-submit-btn{
 
 .header-contacts{
 	padding-top: 36px;
+	padding-right: 30px;
 	color: #32425c;
 }
 
 .header-contacts .phone{
 	position: relative;
-	width: 270px;
 	padding: 8px;
-	padding-left: 37px;
 	margin-bottom: 2px;
 	border: 3px solid white;
 	text-align: center;
@@ -1053,7 +1076,8 @@ form.search:hover .search-submit-btn{
 .account .registration{
 	width: 150px;
 	margin-left: 10px;
-	padding-left: 24px;
+	padding: 0px 5px;
+	text-align: center;
 }
 
 .account a{
@@ -1085,6 +1109,7 @@ form.search:hover .search-submit-btn{
 
 .main-menu-list{
 	display: table;
+	margin: auto;
 	width: 100%;
 	font-size: 17px;
 	line-height: 55px;
@@ -1095,6 +1120,7 @@ form.search:hover .search-submit-btn{
 
 .main-menu li{
 	display: table-cell;
+	vertical-align: middle;
 }
 
 .main-menu li a{

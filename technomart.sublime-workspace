@@ -4,16 +4,44 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
 				"font",
+				"font-weight"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"fotn",
 				"font-weight"
 			],
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"li",
-				"link	Tag"
 			],
 			[
 				"fot",
@@ -40,14 +68,6 @@
 				"italic"
 			],
 			[
-				"font-",
-				"font-style"
-			],
-			[
-				"fo",
-				"font-variant"
-			],
-			[
 				"margin-",
 				"margin-bottom"
 			],
@@ -58,10 +78,6 @@
 			[
 				"C",
 				"Cuprum-Bold.ttf"
-			],
-			[
-				"bac",
-				"background-image"
 			],
 			[
 				"wid",
@@ -102,10 +118,6 @@
 			[
 				"w",
 				"width"
-			],
-			[
-				"tex",
-				"text-align"
 			],
 			[
 				"text",
@@ -191,7 +203,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 14752,
+				"buffer_size": 14992,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +211,15 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 20750,
+				"buffer_size": 24628,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "catalog.html",
+			"settings":
+			{
+				"buffer_size": 13318,
 				"line_ending": "Windows"
 			}
 		}
@@ -310,6 +330,35 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"slide",
+			"icon-basket",
+			"btn",
+			".search-submit-btn",
+			"search-submit-btn",
+			"header-top",
+			"<a",
+			".auto li",
+			"copyright",
+			"page-footer",
+			"logo-btm",
+			"page-content",
+			"map",
+			"map + ",
+			"content-brands",
+			"item-card",
+			"btn",
+			"letter",
+			"Cuprum",
+			"font-",
+			"font-family",
+			"brand",
+			"popular",
+			"regi",
+			"page-content",
+			"btn",
+			".item-card",
+			".content-items > .item-card",
+			" .content-items > .item-card",
 			"min-height",
 			"tab",
 			"services",
@@ -416,7 +465,7 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
@@ -431,15 +480,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14752,
+						"buffer_size": 14992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1306,
-								1306
+								9385,
+								9385
 							]
 						],
 						"settings":
@@ -452,7 +501,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 432.0,
+						"translation.y": 4193.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -464,15 +513,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20750,
+						"buffer_size": 24628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10003,
-								10003
+								8051,
+								8051
 							]
 						],
 						"settings":
@@ -485,10 +534,43 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 10079.0,
+						"translation.y": 7577.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "catalog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -587,7 +669,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 268.0,
+	"side_bar_width": 117.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
