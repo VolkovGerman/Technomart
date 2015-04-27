@@ -4,9 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Technomart</title>
 
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -70,18 +71,21 @@
 						<div class="row">
 							<div class="col4">
 								<div class="category-intro yellow new-item">
+									<div class="img-formenu sprite sprite-yellow"></div>
 									Материалы
 									<a href="#" class="btn transp materials">На любой вкус</a>
 								</div>
 							</div>
 							<div class="col4">
 								<div class="category-intro blue">
+									<div class="img-formenu sprite sprite-blue"></div>
 									Инструмент
 									<a href="#" class="btn transp instrument">На все случаи</a>
 								</div>
 							</div>
 							<div class="col4">
 								<div class="category-intro pink">
+									<div class="img-formenu sprite sprite-pink"></div>
 									Техника
 									<a href="#" class="btn transp equipment">Для стройки</a>
 								</div>
@@ -94,14 +98,14 @@
 										<div class="item slide slide1 clearfix">
 											<header class="slide-header">
 												<h2>Перфораторы</h2>
-												<h4>Настоящие мужские игрушки</h4>
+												<div class="slider-text">Настоящие мужские игрушки</div>
 											</header>
 											<a href="#" class="btn btn-red pull-left">Открыть каталог</a>
 										</div>
 										<div class="item slide slide2 clearfix">
 											<header class="slide-header">
 												<h2>Дрели</h2>
-												<h4>Соседям на радость!</h4>
+												<div class="slider-text">Соседям на радость!</div>
 											</header>
 											<a href="#" class="btn btn-red">Открыть каталог</a>
 										</div>
@@ -110,10 +114,12 @@
 							</div>
 							<div class="col4">
 								<div class="category-intro green">
+									<div class="img-formenu sprite sprite-green"></div>
 									Скидки 50%
 									<a href="#" class="btn transp discounts">На 350 товаров</a>
 								</div>
 								<div class="category-intro orange">
+									<div class="img-formenu sprite sprite-orange"></div>
 									Доставка
 									<a href="#" class="btn transp delivery">Бесплатно</a>
 								</div>
@@ -423,71 +429,6 @@
 	    </script>
 	<!-- / PixLayout -->
 		<script src="_assets/owl.carousel.min.js"></script>
-		<script type="text/javascript">
-			owl = $(".slides");
-			$(document).ready(function(){
-				owl.owlCarousel({nav:true,items: 1,navText:["",""],navClass:["owl-prev icon-left","owl-next icon-right"],loop: true,dots: true});
-			});
-
-			var bigmap = document.getElementById('bigmap'),
-				smallmap = document.getElementById('smallmap'),
-				form = document.getElementById('write-to-us');
-
-			smallmap.addEventListener("mouseover", function(){
-				bigmap.style.display = "block";
-			});
-
-			document.querySelector(".big-map-wrap .btn-close").addEventListener("click", function(event){
-				event.preventDefault();
-				bigmap.style.display = "none";
-			});
-
-			var openFormBtn = document.getElementById('open-form');
-
-			openFormBtn.addEventListener("click", function (event){
-				event.preventDefault();
-				form.style.display = "block";
-			});
-
-			document.querySelector(".mail .btn-close").addEventListener("click", function(event){
-				event.preventDefault();
-				form.style.display = "none";
-			});
-
-			var tabsNav = document.querySelector(".tabs-nav");
-
-			var i = 0;
-			while (tabsNav.children[i]){
-				tabsNav.children[i].addEventListener("click", function(event){
-					event.preventDefault();
-
-					var tabsNav = document.querySelector(".tabs-nav"),
-						tabsBody = document.querySelector(".tabs-body");
-
-					// Чистка классов active
-					var i = 0;
-					while (tabsNav.children[i]){
-						tabsNav.children[i].classList.remove("active");
-						tabsBody.children[i].classList.remove("active");
-						i++;
-					}
-
-					// Добавляем active к нужным элементам
-					this.classList.add("active");
-
-					// Узнаем номер элемента по списку
-					i = 0;
-					while (tabsNav.children[i]){
-						if (tabsNav.children[i].classList.contains("active")) break;
-						i++;
-					}
-
-					// Добавляем к i-ому элементу класс active
-					tabsBody.children[i].classList.add("active");
-				});
-				i++;
-			};
-
-		</script>
+		<script src="js/script.js"></script>
 </body>
 </html>
