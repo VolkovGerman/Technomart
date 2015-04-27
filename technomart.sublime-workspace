@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"pop",
+				"popup-item-added.html"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"getE",
+				"getElementsByClassName"
+			],
+			[
+				"ta",
+				"tabsNav"
+			],
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ps",
+				"position"
+			],
+			[
 				"border-c",
 				"border-color"
 			],
@@ -12,20 +60,8 @@
 				"border-bottom"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"FL",
 				"float"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"ma",
-				"margin-left"
 			],
 			[
 				"i",
@@ -40,20 +76,12 @@
 				"max-width"
 			],
 			[
-				"tex",
-				"text-transform"
-			],
-			[
 				"padd",
 				"padding-left"
 			],
 			[
 				"margi",
 				"margin-top"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"co",
@@ -66,10 +94,6 @@
 			[
 				"add",
 				"addEventListener"
-			],
-			[
-				"get",
-				"getElementById"
 			],
 			[
 				"font",
@@ -88,10 +112,6 @@
 				"background-color"
 			],
 			[
-				"ta",
-				"table-layout"
-			],
-			[
 				"min",
 				"min-width"
 			],
@@ -102,10 +122,6 @@
 			[
 				"tabs",
 				"tabsBody"
-			],
-			[
-				"d",
-				"document"
 			],
 			[
 				"cur",
@@ -263,7 +279,39 @@
 			"file": "catalog.html",
 			"settings":
 			{
-				"buffer_size": 15860,
+				"buffer_size": 16038,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 16246,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "popup-mail.html",
+			"settings":
+			{
+				"buffer_size": 7505,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "popup-map.html",
+			"settings":
+			{
+				"buffer_size": 6822,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "popup-item-added.html",
+			"settings":
+			{
+				"buffer_size": 7045,
 				"line_ending": "Windows"
 			}
 		},
@@ -271,7 +319,7 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 32092,
+				"buffer_size": 37543,
 				"line_ending": "Windows"
 			}
 		},
@@ -279,7 +327,7 @@
 			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 1696,
+				"buffer_size": 2792,
 				"line_ending": "Windows"
 			}
 		},
@@ -287,15 +335,15 @@
 			"file": "german-tech.todo",
 			"settings":
 			{
-				"buffer_size": 13700,
+				"buffer_size": 14576,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "css/style-dist.css",
 			"settings":
 			{
-				"buffer_size": 15584,
+				"buffer_size": 29177,
 				"line_ending": "Windows"
 			}
 		}
@@ -312,15 +360,19 @@
 		"selected_items":
 		[
 			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
 				"Package Control: ",
-				"Package Control: List Packages"
+				"Package Control: Install Package"
 			],
 			[
 				"Package Cont",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -342,14 +394,18 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart"
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/js/script.js",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/german-tech.todo",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/.gitignore",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/index-form.html",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/index-map.html",
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/german-tech.todo",
 		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/stitches.txt",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css/owl.carousel.css",
@@ -409,6 +465,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"btn-buy",
+			"index-map.html",
+			"url",
+			"-o",
+			"-web",
+			"-moz",
+			"itemAdded",
+			"slide",
+			"map",
+			".footer-info .logo",
+			"logo",
+			"slider",
+			"row",
+			"btn-close",
+			"buttons",
+			"menu-item",
+			"bigmap",
+			"owl-prev",
+			"input",
+			"home-btn",
+			"bread",
+			"home-icon",
+			"yes",
+			"auth",
+			"breadcrumbs > li",
+			"registradion",
+			"no-a",
+			"text-decoradion",
+			"text-decoration",
+			"text-decoradion:",
+			"text-decoration:",
+			"text-decoration: unde",
+			"bar",
+			"filter",
+			"fieldset",
+			"ratio",
 			"arrow",
 			"page-con",
 			"new",
@@ -500,43 +592,7 @@
 			"letter-spacing:",
 			"line-height:",
 			"container",
-			"footer-contacts",
-			"container",
-			"style",
-			"col",
-			"copyrite",
-			"top",
-			"left",
-			"Доставка",
-			"red",
-			"long",
-			"btn",
-			"popular-header",
-			"arrows-bullets",
-			"perforatori",
-			"dreli",
-			"bottom",
-			"contacts-right",
-			"submit-button",
-			"container clearfix",
-			"font-size",
-			".top",
-			"top",
-			"footer-menu-list",
-			"main-menu-list",
-			"<article class=\"item\">",
-			"<div class=\"row\">",
-			"<div class=\"row\"",
-			"item-card",
-			"item-wrap",
-			"brand-wrap",
-			"block",
-			"pagination",
-			"item-wrap",
-			"input",
-			" clearfix",
-			"<img",
-			"src=\"#\""
+			"footer-contacts"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -544,6 +600,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"registration",
+			"text-decoration",
+			"radio",
 			" BFG&nbsp;",
 			"Cuprum",
 			"btn-red",
@@ -586,15 +645,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15860,
+						"buffer_size": 16038,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4993,
-								4993
+								11435,
+								11435
 							]
 						],
 						"settings":
@@ -607,27 +666,153 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1222.0,
+						"translation.y": 5201.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "css/style.css",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 32092,
+						"buffer_size": 16246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18515,
-								18515
+								11117,
+								11117
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5008.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "popup-mail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5846,
+								5846
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2484.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "popup-map.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2281,
+								2281
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 955.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "popup-item-added.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3326,
+								3326
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1261.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37543,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7368,
+								7368
 							]
 						],
 						"settings":
@@ -640,58 +825,60 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 14602.0,
+						"translation.y": 6425.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 6,
 					"file": "js/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1696,
+						"buffer_size": 2792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								944,
-								944
+								1228,
+								1228
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 351.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "german-tech.todo",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13700,
+						"buffer_size": 14576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7881,
-								7937
+								13238,
+								13238
 							]
 						],
 						"settings":
@@ -704,27 +891,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1620.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "index.html",
+					"buffer": 8,
+					"file": "css/style-dist.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15584,
+						"buffer_size": 29177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2644,
-								2644
+								28359,
+								28359
 							]
 						],
 						"settings":
@@ -733,14 +920,13 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 546.0,
+						"translation.x": 225923.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -748,7 +934,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 21.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -797,7 +983,7 @@
 	"project": "technomart.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

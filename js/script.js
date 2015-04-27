@@ -1,5 +1,5 @@
-owl = $(".slides");
 $(document).ready(function(){
+	var owl = $(".slides");
 	owl.owlCarousel({
 		nav:true,
 		items: 1,
