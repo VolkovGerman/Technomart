@@ -10,57 +10,87 @@ $(document).ready(function(){
 var bigmap = document.getElementById('bigmap'),
 	smallmap = document.getElementById('smallmap'),
 	form = document.getElementById('write-to-us'),
-	closeBtn = document.querySelector(".big-map-wrap .btn-close"),
+	success = document.getElementById('item-added'),
 	openFormBtn = document.getElementById('open-form'),
-	tabsNav = document.querySelector(".tabs-nav");
+	tabsNav = document.querySelector(".tabs-nav"),
+	maph = document.querySelector('.map-hidden');
 
-smallmap.addEventListener("mouseover", function(){
-	bigmap.style.display = "block";
-});
+if (maph)
+	setTimeout(function() {
+		maph.classList.remove('map-hidden');
+	}, 1000);
 
-closeBtn.addEventListener("click", function(event){
-	event.preventDefault();
-	bigmap.style.display = "none";
-});
+if (smallmap)
+	smallmap.addEventListener("mouseover", function(){
+		bigmap.style.display = "block";
+	});
 
-openFormBtn.addEventListener("click", function (event){
-	event.preventDefault();
-	form.style.display = "block";
-});
-
-document.querySelector(".mail .btn-close").addEventListener("click", function(event){
-	event.preventDefault();
-	form.style.display = "none";
-});
+if (openFormBtn)
+	openFormBtn.addEventListener("click", function (event){
+		event.preventDefault();
+		form.style.display = "block";
+	});
 
 var i = 0;
-while (tabsNav.children[i]){
-	tabsNav.children[i].children[0].addEventListener("click", function(event){
+while (document.getElementsByClassName("btn-close")[i]){
+	document.getElementsByClassName("btn-close")[i].addEventListener("click", function(event){
 		event.preventDefault();
-
-		var tabsNav = document.querySelector(".tabs-nav"),
-			tabsBody = document.querySelector(".tabs-body");
-
-		// Чистка классов active
-		var i1 = 0;
-		while (tabsNav.children[i1]){
-			tabsNav.children[i1].classList.remove("active");
-			tabsBody.children[i1].classList.remove("active");
-			i1++;
-		}
-
-		// Добавляем active к нужным элементам
-		this.parentNode.classList.add("active");
-
-		// Узнаем номер элемента по списку
-		i1 = 0;
-		while (tabsNav.children[i1]){
-			if (tabsNav.children[i1].classList.contains("active")) break;
-			i1++;
-		}
-
-		// Добавляем к i-ому элементу класс active
-		tabsBody.children[i1].classList.add("active");
+		this.parentNode.style.display = "none";
 	});
 	i++;
-};
+}
+
+i = 0;
+if (tabsNav)
+	while (tabsNav.children[i]){
+		tabsNav.children[i].children[0].addEventListener("click", function(event){
+			event.preventDefault();
+
+			var tabsNav = document.querySelector(".tabs-nav"),
+				tabsBody = document.querySelector(".tabs-body");
+
+			// Чистка классов active
+			var i1 = 0;
+			while (tabsNav.children[i1]){
+				tabsNav.children[i1].classList.remove("active");
+				tabsBody.children[i1].classList.remove("active");
+				i1++;
+			}
+
+			// Добавляем active к нужным элементам
+			this.parentNode.classList.add("active");
+
+			// Узнаем номер элемента по списку
+			i1 = 0;
+			while (tabsNav.children[i1]){
+				if (tabsNav.children[i1].classList.contains("active")) break;
+				i1++;
+			}
+
+			// Добавляем к i-ому элементу класс active
+			tabsBody.children[i1].classList.add("active");
+		});
+		i++;
+	};
+
+i = 0;
+while (document.getElementsByClassName('btn-buy')[i]){
+	document.getElementsByClassName('btn-buy')[i].addEventListener("click", function(event){
+		event.preventDefault();
+
+		itemAdded.style.display = 'block';
+		document.getElementsByClassName('info-cart')[0].style.backgroundColor = "#ee3643";
+		cartCounter.innerHTML = parseInt(cartCounter.innerHTML) + 1;
+	});
+	i++;
+}
+
+i = 0;
+while (document.getElementsByClassName('btn-bookmark')[i]){
+	document.getElementsByClassName('btn-bookmark')[i].addEventListener("click", function(event){
+		event.preventDefault();
+
+		bookmarkCounter.innerHTML = parseInt(bookmarkCounter.innerHTML) + 1;
+	});
+	i++;
+}

@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"FL",
+				"float"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
 				"margin",
 				"margin-right"
 			],
@@ -22,10 +70,6 @@
 			[
 				"get",
 				"getElementById"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"font",
@@ -52,10 +96,6 @@
 				"min-width"
 			],
 			[
-				"te",
-				"text-align"
-			],
-			[
 				"class",
 				"classList"
 			],
@@ -76,16 +116,8 @@
 				"getElementById"
 			],
 			[
-				"tex",
-				"text-decoration"
-			],
-			[
 				"wdi",
 				"width"
-			],
-			[
-				"bac",
-				"background-color"
 			],
 			[
 				"fo",
@@ -108,24 +140,12 @@
 				"font-weight"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
 				"fot",
 				"font-size"
 			],
 			[
-				"ma",
-				"margin-right"
-			],
-			[
 				"ac",
 				"action	Attr"
-			],
-			[
-				"i",
-				"italic"
 			],
 			[
 				"margin-",
@@ -240,10 +260,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "catalog.html",
 			"settings":
 			{
-				"buffer_size": 17100,
+				"buffer_size": 15860,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,39 +271,31 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 27629,
+				"buffer_size": 32092,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index-map.html",
+			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 17124,
+				"buffer_size": 1696,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index-form.html",
+			"file": "german-tech.todo",
 			"settings":
 			{
-				"buffer_size": 17124,
-				"line_ending": "Windows"
+				"buffer_size": 13700,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "catalog.html",
-			"settings":
-			{
-				"buffer_size": 13318,
+				"buffer_size": 15584,
 				"line_ending": "Windows"
 			}
 		}
@@ -330,13 +342,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart",
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/_assets",
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css",
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/fonts"
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart"
 	],
 	"file_history":
 	[
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/.gitignore",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/index-form.html",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/index-map.html",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/german-tech.todo",
+		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/stitches.txt",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css/owl.carousel.css",
 		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/catalog.html",
@@ -347,7 +362,6 @@
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/barbershop/price.html",
 		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
 		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/barbershop/catalog-item.html",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/barbershop/barbershop.sublime-project",
 		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/User/comment.sublime-snippet",
@@ -395,6 +409,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"arrow",
+			"page-con",
+			"new",
+			", \"Times New Roman\", Times, serif;",
+			"item-card",
+			"+",
+			"<br>BFG ",
+			"h1",
+			"document.querySelector(\".big-map-wrap .btn-close\")",
+			"tab",
+			"slide",
+			".brand",
+			"+",
+			"btn",
+			"regis",
+			"registration",
+			"enter",
+			"social-btn",
+			"<span class=\"item-price-old\"></span>",
 			"index-map.html",
 			"icon-close",
 			"next",
@@ -503,20 +536,7 @@
 			"input",
 			" clearfix",
 			"<img",
-			"src=\"#\"",
-			"src=\"\"",
-			"img",
-			"src=\"\"",
-			"<span href=\"#\"",
-			"src=\"\"",
-			"<span href=\"#\" class=\"price-old\">",
-			"img",
-			"src=\"\"",
-			"<img src=\"\"",
-			"list-rhom",
-			"list-rom",
-			"prise",
-			"h3"
+			"src=\"#\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -524,6 +544,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			" BFG&nbsp;",
 			"Cuprum",
 			"btn-red",
 			"btn-long",
@@ -556,24 +577,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "catalog.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17100,
+						"buffer_size": 15860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								17100
+								4993,
+								4993
 							]
 						],
 						"settings":
@@ -586,10 +607,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1332.0,
+						"translation.y": 1222.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -598,15 +619,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 27629,
+						"buffer_size": 32092,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15736,
-								15736
+								18515,
+								18515
 							]
 						],
 						"settings":
@@ -619,121 +640,91 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17085.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index-map.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10959,
-								10959
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5131.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index-form.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13747,
-								13747
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6913.0,
+						"translation.y": 14602.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": ".gitignore",
+					"buffer": 2,
+					"file": "js/script.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15,
+						"buffer_size": 1696,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15,
-								15
+								944,
+								944
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 351.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "catalog.html",
+					"buffer": 3,
+					"file": "german-tech.todo",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13318,
+						"buffer_size": 13700,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								7881,
+								7937
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2644,
+								2644
 							]
 						],
 						"settings":
@@ -746,10 +737,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 74.0,
+						"translation.y": 546.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -757,7 +748,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 21.0
 	},
 	"input":
 	{
@@ -806,7 +797,7 @@
 	"project": "technomart.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":

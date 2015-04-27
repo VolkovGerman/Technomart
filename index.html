@@ -21,8 +21,8 @@
 						<button type="submit" class="search-submit-btn icon-search"></button>
 					</form>
 					<div class="info-panel clearfix">
-						<a class='info-bookmarks icon-bookmark' href="#">Закладки: <span id="bookmark-counter">0</span></a>
-						<a class='info-cart icon-basket' href="#">Корзина: <span id="cart-counter">0</span></a>
+						<a class='info-bookmarks icon-bookmark' href="#">Закладки: <span id="bookmarkCounter">0</span></a>
+						<a class='info-cart icon-basket' href="#">Корзина: <span id="cartCounter">0</span></a>
 						<a class='order-btn' href="#">Оформить заказ</a>
 					</div>
 				</div>
@@ -300,9 +300,9 @@
 							</div>
 						</div>
 					</div>
-					<div id="bigmap" class="big-map-wrap">
-						<img src="img/map-big.jpg" height="476" width="970" alt="большая карта" class="big-map">
-						<a href="#" class="btn-close"></a>
+					<div id="bigmap" class="big-map-wrap map-hidden">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4490.594856814472!2d37.62109540741325!3d55.75333528857432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1430162931211" width="940" height="500" frameborder="0" style="border:0"></iframe>
+						<a href="#" class="btn-close">close</a>
 					</div>
 				</div>
 			</div>
@@ -382,7 +382,7 @@
 		</footer>
 	</div>
 	<div id="write-to-us" class="mail popup col8">
-		<a href="#" class="btn-close"></a>
+		<a href="#" class="btn-close">close</a>
 		<form class="mail-form" action="#">
 			<div class="fields">
 				<div class="row">
@@ -411,6 +411,31 @@
     			</div>
 	   		</div>
 		</form>
+	</div>
+	<div id="itemAdded" class="added popup col8">
+		<a href="#" class="btn-close">close</a>
+		<div class="fields">
+			<div class='success clearfix'>
+				<div class="ok">
+					ok
+				</div>
+				<div class="text">
+					Товар добавлен в корзину!
+				</div>
+			</div>
+		</div>
+		<div class="buttons-wrap">
+			<div class="buttons">
+				<div class="row">
+					<div class="col6">
+						<input type="submit" class="btn btn-red" value="Оформить заказ">
+					</div>
+					<div class="col6">
+						<input type="reset" class="btn white" value="Продолжить покупки">
+					</div>
+				</div>
+			</div>
+   		</div>
 	</div>
 	<!-- PixLayout -->
 	    <script src="_assets/jquery-1.11.2.min.js"></script>
