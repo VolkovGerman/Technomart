@@ -8,7 +8,7 @@
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style-dist.css" rel="stylesheet">
 </head>
 <body>
 	<div class="page-wrapper">
@@ -137,7 +137,7 @@
 									<img src="img/instruments/p9000.jpg" height="164" width="184" alt="перфоратор">
 								</div>
 								<div class="item-action-btns">
-									<a href="#" class="btn btn-buy icon-basket">Купить</a>
+									<a href="popup-item-added.html" class="btn btn-buy icon-basket">Купить</a>
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
 								<p class="item-name">
@@ -150,7 +150,7 @@
 								<div class="item-img-wrap">
 									<img src="img/instruments/p3000.jpg" height="112" width="127" alt="перфоратор">
 								</div><div class="item-action-btns">
-									<a href="#" class="btn btn-buy icon-basket">Купить</a>
+									<a href="popup-item-added.html" class="btn btn-buy icon-basket">Купить</a>
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
 								<p class="item-name">
@@ -164,7 +164,7 @@
 									<img src="img/instruments/p6000.jpg" height="128" width="144" alt="перфоратор">
 								</div>
 								<div class="item-action-btns">
-									<a href="#" class="btn btn-buy icon-basket">Купить</a>
+									<a href="popup-item-added.html" class="btn btn-buy icon-basket">Купить</a>
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
 								<p class="item-name">
@@ -178,7 +178,7 @@
 									<img src="img/instruments/p2000.jpg" height="112" width="127" alt="перфоратор">
 								</div>
 								<div class="item-action-btns">
-									<a href="#" class="btn btn-buy icon-basket">Купить</a>
+									<a href="popup-item-added.html" class="btn btn-buy icon-basket">Купить</a>
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
 								<p class="item-name">
@@ -293,10 +293,13 @@
 									Вы можете забрать товар сами,<br>
 									заехав в наш офис:
 								</p>
+
 								<div id="smallmap" class="map">
-									<img class="map-img" src="img/map-small.jpg" height="158" width="300" alt="карта">
+									<a href="popup-map.html">
+										<img class="map-img" src="img/map-small.jpg" height="158" width="300" alt="карта">
+									</a>
 								</div>
-								<a href="#" id="open-form" class="btn btn-red">Заблудились? Напишите нам!</a>
+								<a href="popup-mail.html" id="open-form" class="btn btn-red">Заблудились? Напишите нам!</a>
 							</div>
 						</div>
 					</div>
@@ -395,7 +398,7 @@
 						<input name="email" type="email" class="send-email" placeholder="Для отправки ответа">
 					</div>
 				</div>
-		   		<label>Текст письма:</label>
+		   		<label class='mail-text'>Текст письма:</label>
 		   		<textarea name="text" class="send-text" placeholder="В свободной форме" rows="4"></textarea>
 			</div>
     		<div class="buttons-wrap">
@@ -439,6 +442,6 @@
 	</div>
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script-dist.js"></script>
 </body>
 </html>

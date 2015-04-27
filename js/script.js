@@ -35,7 +35,19 @@ var i = 0;
 while (document.getElementsByClassName("btn-close")[i]){
 	document.getElementsByClassName("btn-close")[i].addEventListener("click", function(event){
 		event.preventDefault();
-		this.parentNode.style.display = "none";
+		var self = this,
+			popup = self.parentNode;
+
+		if (popup.classList.contains('zoomIn')){
+			popup.classList.remove('zoomIn');
+			popup.classList.add('zoomOut');
+			setTimeout(function () {
+				popup.classList.remove('animated','zoomOut');
+			}, 500);
+		} else{
+			popup.style.display = 'none';
+		}
+
 	});
 	i++;
 }
@@ -78,7 +90,7 @@ while (document.getElementsByClassName('btn-buy')[i]){
 	document.getElementsByClassName('btn-buy')[i].addEventListener("click", function(event){
 		event.preventDefault();
 
-		itemAdded.style.display = 'block';
+		itemAdded.classList.add('animated', 'zoomIn');
 		document.getElementsByClassName('info-cart')[0].style.backgroundColor = "#ee3643";
 		cartCounter.innerHTML = parseInt(cartCounter.innerHTML) + 1;
 	});

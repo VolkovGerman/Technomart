@@ -337,6 +337,11 @@ a{
 	z-index: 100;
 }
 
+.popup.animated,
+.big-map-wrap.animated{
+	display: block;
+}
+
 .fields{
 	font-family: "Cuprum", Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
@@ -364,6 +369,10 @@ a{
 	width: 100%;
 	max-width: 100%;
 	max-height: 260px;
+}
+
+label.mail-text{
+	margin-top: 10px;
 }
 
 .popup .buttons-wrap{
@@ -2282,4 +2291,81 @@ form.search:hover{
 	left: 2px;
 	border-radius: 50%;
 	background-color: #ee3643;
+}
+
+
+/******************************** Анимация *******************/
+
+.animated {
+
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+@-webkit-keyframes zoomOut {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.zoomOut {
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut;
 }
