@@ -74,22 +74,22 @@
 		</header>
 		<main class="page-content">
 			<div class="container">
-				<div id="write-to-us" class="mail popup col8" style="display: block; position: relative; margin-bottom: 100px;">
+				<div id="write-to-us" class="mail popup col8" style="display: block; position: relative; margin-bottom: 80px;">
 					<a href="#" class="btn-close">close</a>
 					<form class="mail-form" action="#">
 						<div class="fields">
 							<div class="row">
 								<div class="col6">
-									<label>Ваше имя</label>
-									<input name="name" type='text' class="send-name" placeholder="Представьтесь, пожалуйста">
+									<label for="mail-name">Ваше имя</label>
+									<input id="mail-name" name="name" type='text' class="send-name" placeholder="Представьтесь, пожалуйста">
 								</div>
 								<div class="col6">
-									<label>Ваш e-mail:</label>
-									<input name="email" type="email" class="send-email" placeholder="Для отправки ответа">
+									<label for="mail-email">Ваш e-mail:</label>
+									<input id="mail-email" name="email" type="email" class="send-email" placeholder="Для отправки ответа">
 								</div>
 							</div>
-					   		<label class='mail-text'>Текст письма:</label>
-					   		<textarea name="text" class="send-text" placeholder="В свободной форме" rows="4"></textarea>
+					   		<label for="mail-textarea" class='mail-text'>Текст письма:</label>
+					   		<textarea id="mail-textarea" name="text" class="send-text" placeholder="В свободной форме" rows="4"></textarea>
 						</div>
 			    		<div class="buttons-wrap">
 			    			<div class="buttons">
@@ -180,31 +180,6 @@
 				</div>
 			</div>
 		</footer>
-	</div>
-	<div id="itemAdded" class="added popup col8">
-		<a href="#" class="btn-close">close</a>
-		<div class="fields">
-			<div class='success clearfix'>
-				<div class="ok">
-					ok
-				</div>
-				<div class="text">
-					Товар добавлен в корзину!
-				</div>
-			</div>
-		</div>
-		<div class="buttons-wrap">
-			<div class="buttons">
-				<div class="row">
-					<div class="col6">
-						<input type="submit" class="btn btn-red" value="Оформить заказ">
-					</div>
-					<div class="col6">
-						<input type="reset" class="btn white" value="Продолжить покупки">
-					</div>
-				</div>
-			</div>
-   		</div>
 	</div>
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>

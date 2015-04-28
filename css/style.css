@@ -392,6 +392,10 @@ label.mail-text{
 	width: 100%;
 }
 
+.buttons .white{
+	color: black;
+}
+
 .new-item:after{
 	position: absolute;
 	top: 6px;
@@ -636,6 +640,7 @@ label.mail-text{
 
 	width: 220px;
 	height: 37px;
+	padding: 0;
 	line-height: 39px;
 	font-size: 14px;
 	font-family: "Cuprum", Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -645,6 +650,19 @@ label.mail-text{
 	text-transform: uppercase;
 	border-radius: 3px;
 	word-wrap: break-word;
+}
+
+.btn-white{
+	background-color: white;
+	color: black;
+}
+
+.btn-white:hover{
+	color: #ee3643;
+}
+
+.btn-white:active{
+	color: #b2b2b2;
 }
 
 .btn-red{
