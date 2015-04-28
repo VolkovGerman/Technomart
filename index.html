@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Technomart</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&amp;subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&amp;subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link href="css/style-dist.css" rel="stylesheet">
@@ -140,9 +140,9 @@
 									<a href="popup-item-added.html" class="btn btn-buy icon-basket">Купить</a>
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
-								<p class="item-name">
+								<h4 class="item-name">
 									Перфоратор BOSCH BFG&nbsp;9000
-								</p>
+								</h4>
 								<span class="item-price-old">32 500 Р.</span>
 								<a href="#" class="item-price-new">25 500 Р.</a>
 							</article>
@@ -153,9 +153,9 @@
 									<a href="popup-item-added.html" class="btn btn-buy icon-basket">Купить</a>
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
-								<p class="item-name">
+								<h4 class="item-name">
 									Перфоратор BOSCH BFG&nbsp;3000
-								</p>
+								</h4>
 								<span class="item-price-old">22 500 Р.</span>
 								<a href="#" class="item-price-new">15 500 Р.</a>
 							</article>
@@ -167,9 +167,9 @@
 									<a href="popup-item-added.html" class="btn btn-buy icon-basket">Купить</a>
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
-								<p class="item-name">
+								<h4 class="item-name">
 									Перфоратор BOSCH BFG&nbsp;6000
-								</p>
+								</h4>
 								<span class="item-price-old">30 500 Р.</span>
 								<a href="#" class="item-price-new">25 500 P.</a>
 							</article>
@@ -181,9 +181,9 @@
 									<a href="popup-item-added.html" class="btn btn-buy icon-basket">Купить</a>
 									<a href="#" class="btn btn-bookmark">В закладки</a>
 								</div>
-								<p class="item-name">
+								<h4 class="item-name">
 									Перфоратор BOSCH BFG&nbsp;2000
-								</p>
+								</h4>
 								<a href="#" class="item-price-new">12 500 Р.</a>
 							</article>
 						</div>
@@ -305,7 +305,7 @@
 						</div>
 					</div>
 					<div id="bigmap" class="big-map-wrap map-hidden">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4490.594856814472!2d37.62109540741325!3d55.75333528857432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1430162931211" width="940" height="500" frameborder="0" style="border:0"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4490.594856814472!2d37.62109540741325!3d55.75333528857432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506b52311f!2z0JrRgNCw0YHQvdCw0Y8g0J_Qu9C-0YnQsNC00Yw!5e0!3m2!1sru!2sru!4v1430162931211" width="940" height="500" style="border:0"></iframe>
 						<a href="#" class="btn-close">close</a>
 					</div>
 				</div>
@@ -391,16 +391,16 @@
 			<div class="fields">
 				<div class="row">
 					<div class="col6">
-						<label>Ваше имя</label>
-						<input name="name" type='text' class="send-name" placeholder="Представьтесь, пожалуйста">
+						<label for="mail-name">Ваше имя</label>
+						<input id="mail-name" name="name" type='text' class="send-name" placeholder="Представьтесь, пожалуйста">
 					</div>
 					<div class="col6">
-						<label>Ваш e-mail:</label>
-						<input name="email" type="email" class="send-email" placeholder="Для отправки ответа">
+						<label for="mail-email">Ваш e-mail:</label>
+						<input id="mail-email" name="email" type="email" class="send-email" placeholder="Для отправки ответа">
 					</div>
 				</div>
-		   		<label class='mail-text'>Текст письма:</label>
-		   		<textarea name="text" class="send-text" placeholder="В свободной форме" rows="4"></textarea>
+		   		<label for="mail-textarea" class='mail-text'>Текст письма:</label>
+		   		<textarea id="mail-textarea" name="text" class="send-text" placeholder="В свободной форме" rows="4"></textarea>
 			</div>
     		<div class="buttons-wrap">
     			<div class="buttons">
