@@ -882,6 +882,7 @@ label.mail-text{
 .item-name{
 	line-height: 20px;
 	margin-bottom: 8px;
+	margin-top: 18px;
 }
 
 .item-img-wrap > img, .brand > img{
@@ -903,7 +904,6 @@ label.mail-text{
 
 .services-tabs{
 	margin-top: 36px;
-	width: 100%;
 }
 
 .services h2{
@@ -917,15 +917,15 @@ label.mail-text{
 	font-weight: bold;
 }
 
-.tabs-nav{
-	margin-right: -20px;
-	list-style: none;
-	position: relative;
-	top: 34px;
+.tab p{
+	margin-bottom: 3px;
 }
 
-.tabs-nav ul{
-	width: 100%;
+.tabs-nav{
+	float: left;
+	width: 240px;
+	margin-top: 35px;
+	list-style: none;
 }
 
 .tabs-nav a{
@@ -953,7 +953,9 @@ label.mail-text{
 
 .tabs-body{
 	position: relative;
+	float: left;
 	padding-left: 80px;
+	width: 700px;
 	z-index: 20;
 }
 
@@ -961,8 +963,8 @@ label.mail-text{
 	content: '';
 	display: block;
 	position: absolute;
-	top: -37px;
-  	left: -10px;
+	top: -8px;
+	left: -10px;
 	width: 10px;
 	height: 272px;
 	background: url("../img/icons/services-shadow.png") no-repeat 0 0;
