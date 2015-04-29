@@ -1,12 +1,3 @@
-$(document).ready(function(){
-	var owl = $(".slides");
-	owl.owlCarousel({
-		nav:true,
-		items: 1,
-		loop: true,
-		dots: true});
-});
-
 var bigmap = document.getElementById('bigmap'),
 	smallmap = document.getElementById('smallmap'),
 	form = document.getElementById('write-to-us'),
@@ -106,3 +97,12 @@ while (document.getElementsByClassName('btn-bookmark')[i]){
 	});
 	i++;
 }
+
+$(document).ready(function(){
+	var owl = $(".slides");
+	owl.owlCarousel({
+		nav:true,
+		items: 1,
+		loop: true,
+		dots: true});
+});
