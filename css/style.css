@@ -912,13 +912,14 @@ label.mail-text{
 
 .tab h2{
 	color: #32425c;
-	margin-top: 29px;
 	font-size: 34px;
+	margin-top: 0px;
 	font-weight: bold;
 }
 
 .tab p{
-	margin-bottom: 3px;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 .tabs-nav{
@@ -955,6 +956,7 @@ label.mail-text{
 	position: relative;
 	float: left;
 	padding-left: 80px;
+	padding-top: 29px;
 	width: 700px;
 	z-index: 20;
 }
@@ -974,7 +976,8 @@ label.mail-text{
 	display: none;
 	width: 100%;
 	padding-right: 230px;
-	min-height: 285px;
+	min-height: 288px;
+	padding-bottom: 120px;
 }
 
 .tab.active{
