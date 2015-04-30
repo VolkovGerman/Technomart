@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-top"
+			],
+			[
 				"pop",
 				"popup-item-added.html"
 			],
@@ -30,10 +34,6 @@
 			[
 				"fl",
 				"float"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"d",
@@ -276,6 +276,14 @@
 	"buffers":
 	[
 		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 16256,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "catalog.html",
 			"settings":
 			{
@@ -284,10 +292,10 @@
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 16433,
+				"buffer_size": 37889,
 				"line_ending": "Windows"
 			}
 		},
@@ -295,7 +303,7 @@
 			"file": "popup-mail.html",
 			"settings":
 			{
-				"buffer_size": 7005,
+				"buffer_size": 7057,
 				"line_ending": "Windows"
 			}
 		},
@@ -303,7 +311,7 @@
 			"file": "popup-map.html",
 			"settings":
 			{
-				"buffer_size": 6220,
+				"buffer_size": 6272,
 				"line_ending": "Windows"
 			}
 		},
@@ -311,15 +319,7 @@
 			"file": "popup-item-added.html",
 			"settings":
 			{
-				"buffer_size": 6999,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 37845,
+				"buffer_size": 7051,
 				"line_ending": "Windows"
 			}
 		},
@@ -328,25 +328,6 @@
 			"settings":
 			{
 				"buffer_size": 2797,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Общие:\n ✔ нужно сократить до .container https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L13 @done (15-04-23 00:53)\n ✔ отправку формы лучше назвать тоже через пространство имен search, а текст внутри кнопки должен быть полноценным - \"Поиск\" или \"Искать\" https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L17 @done (15-04-23 00:53)\n ✔ в этих блоках нужны сетки @done (15-04-24 14:30)\n   ✔ https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L27 @done (15-04-23 00:54)\n   ✔ https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L58 @done (15-04-24 14:30)\n   ✔ https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L243 @done (15-04-24 14:30)\n   ✔ https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L305 @done (15-04-23 00:57)\n ✔ это p https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L28 @done (15-04-23 00:58)\n ✔ транслит в названии классов https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L81 @done (15-04-24 14:30)\n   ✔ да достаточно лишь slide1 и slide2 @done (15-04-24 14:30)\n ✔ буллет слайдера делается на css https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L98 @done (15-04-24 14:30)\n   ✔ весь блок лучше назвать slider-controls, ведь стрелки - не буллеты. @done (15-04-24 14:30)\n ✔ нету тега заголовка https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L112 @done (15-04-23 01:00)\n ✔ все дополнительные классы для кнопок должны иметь префикс @done (15-04-24 14:30)\n ✔ тут тоже нужны ссылки https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L214 @done (15-04-23 01:01)\n ✔ слишком общие имена классов top, left и т.д. опасны для масштабирования верстки. Нужно сделать болеее конкретные https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L279 @done (15-04-23 01:01)\n ✔ непонятен 2 класс https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L306 @done (15-04-24 14:31)\n ✔ мало классов https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L313 @done (15-04-24 14:31)\n ✔ в формах обязательно должен быть задан action, у input и textarea прописан name https://github.com/VolkovGerman/technomart/blob/gh-pages/index.html#L337 @done (15-04-23 01:03)\n ✔ непонятная вложенность https://github.com/VolkovGerman/technomart/blob/master/index.html#L29 @done (15-04-24 14:31)\n ✔ нужен ли класс descr-left теперь? https://github.com/VolkovGerman/technomart/blob/master/index.html#L258 @done (15-04-24 14:31)\n\n ✔ шрифты подключены неправильно, нужно с гуглофонтс @done (15-04-24 14:31)\n ✔ Cuprum - шрифт с засечками, PT Sans - без. Это разные шрифты, и каждый должен иметь свою цепочку фоллбэков (чекни ff-a и ff-t в эммете). Основные тексты на сайте имеют не то семейство. @done (15-04-25 14:08)\n ✔ иконочных шрифтов не вижу вообще @done (15-04-24 14:33)\n ✔ сетка - осталось выписать оффсеты @done (15-04-24 14:33)\n ✔ не подключен нормализатор @done (15-04-25 14:05)\n   ✔ твои стили должны подключаться последними @done (15-04-25 14:05)\n ✔ box-sizing: border-box; для * и ее псевдоэлементов и нигде более @done (15-04-24 14:34)\n ✔ стили слайдера нужно скопировать куда-нибудь в твой css @done (15-04-24 14:34)\n ✔ <html lang=\"en\"> @done (15-04-25 14:05)\n   ✔ каталог @done (15-04-25 14:05)\n ✔ .content-items > article:nth-child(4n+1) - не по тегу @done (15-04-25 14:05)\n   ✔ зачем наследование? .content-items > .item-card @done (15-04-25 14:05)\n ✔ соцкнопки @done (15-04-25 14:06)\n   ✔ что делает класс vk? где используется social-btn? @done (15-04-25 14:06)\n\nГлавная:\n ✔ изменить <title> @done (15-04-26 11:14)\n ✔ неправильные наведения в закладках и корзине(фон), не показано акттивное состояние @done (15-04-26 13:18)\n    ✔ активное состояние. Иконка гаснет, если при нажатии увести курсор из поля. (и так везде) @done (15-04-26 13:18)\n ✔ если +1 элемент в панели управления http://monosnap.com/image/tZPjbzd86L4yNMjeai1PZzDm0K2WBi @done (15-04-26 13:19)\n ✔ нет работы с переполнением. телефон должен двигаться вместе с текстом. Текст в \"регистрации\" не должен переноситься на новую строчку. Паддинг нужен не только левый, но и правый. text-align center тоже не помешает. http://monosnap.com/image/Mej3dj9FW4mXyBQxfBp2lwVlxABTIR @done (15-04-26 11:24)\n ✔ переполенние http://monosnap.com/image/SD04nXvYoNxlGsHfyUxbhZzP7MobOZ @done (15-04-26 11:26)\n ✔ если +1 пункт меню http://monosnap.com/image/JdCTyYNEQvjOG4VDIqzFt0S8VnmLoe Узнай про свойство table-layout. Кроме того, ячейкам таблице нужно vertical-align, как и инлайн-блокам @done (15-04-26 11:25)\n    ✔ переполнение работает, осталось задать адекатные отступы пунктам меню http://monosnap.com/image/OMoFmhw16jyxdJwcYAwZLEb1SDvQJb @done (15-04-28 00:47)\n ✔ заезжать нельзя, нужно увеличивать http://monosnap.com/image/kk8bbrYfkoUINIyfvj2GmW8MdWkTMv @done (15-04-26 11:27)\n ✔ блок не тянется на всю ширину, иконка не закреплена у правого верхнего угла http://monosnap.com/image/EFdlO10PTRYzKZOwgU4JooQ7vdI51g @done (15-04-26 15:59)\n ✔ картинки в эту секцию следует подключить через спрайт, например http://spritegen.website-performance.org/ @done (15-04-26 15:45)\n ✔ цвет заголовков http://monosnap.com/image/xn8k1BsnYcTWlBImb9aX5PEtwLzMoz @done (15-04-26 11:31)\n ✔ <span class=\"item-price-old\"></span> - нельзя использовать пустые теги. Грубая ошибка. Используй дополнительный класс для цены. На мой взгляд, правильней сделать допкласс на те элементы, где старая цена есть, а не наоборот @done (15-04-26 14:18)\n    ✔ логика правильная, но при чем тут имя товара? а если его не будет? .item-name + .item-price-new { @done (15-04-26 14:18)\n  margin-top: 39px;\n ✔ на товарах в индексе нет флажка new @done (15-04-26 11:33)\n ✔ старая цена не соответствует макету @done (15-04-26 11:33)\n ✔ Проблемы с большим названием http://monosnap.com/image/8CPwUApWLlOGpvq9oHkVYtspZZ37h6 @done (15-04-26 11:34)\n ✔ в названии товара нет br, воспользуйся неразрывным пробелом BFG&nbsp;3000 @done (15-04-26 11:34)\n ✔ плохо с флоатами, почему-то зафиксирована высота http://monosnap.com/image/TuAmHr4BUozjofH7VGKj0hYtoSrJWM @done (15-04-26 11:36)\n ✔ при разных картинках http://monosnap.com/image/JkB16aLNHeG2JxcWjzDYjw0JTR0Lge @done (15-04-26 11:36)\n ✔ картинка должна быть прижата к низу, тень не должна обрубаться на середине http://monosnap.com/image/sGStkFlaihhkY2a5yPSe8jD9dsJXcq @done (15-04-26 17:26)\n    ✔ фикс высота, не работает переполнение @done (15-04-26 17:26)\n ✔ нет наведений для красных кнопок @done (15-04-26 11:38)\n ✔ навигация футера. Какие таблицы, ты чего? Там обычные инлайновые элементы, даже не инлайн-блочные. Не надо так усложнять http://monosnap.com/image/fw6qanMlKAFrgDoSDMvonsXL1C4zhR @done (15-04-26 14:20)\n    ✔ нужно выравнивание по правой стороне http://monosnap.com/image/ldTkbNIZ59OSRvbFvPPVwADvgEnNXF @done (15-04-26 14:20)\n ✔ если ширина вюпорта 800px. Лечится мин шириной body http://monosnap.com/image/zr9qoKGCxDbvgFMfYBowZZZk4khbYx @done (15-04-26 13:27)\n ✔ не стилизован попап @done (15-04-26 13:27)\n ✔ лого - вертикальное несовпадение. В лого как раз есть letter-spacing. Letter-spacing всегда задается в относительных величинах - в em http://monosnap.com/image/y5Q8nfcqEmqZPsLTVQeEcqogS0MO9w @done (15-04-26 13:27)\n ✔ кавычки-елочка «» http://monosnap.com/image/gA6Sbb2eE6a69jPzPrZPD7RNhzkAP7 @done (15-04-26 13:27)\n ✔ неправильные отступы и по вертикали, и по горизонтали (обнулить у правого края) http://monosnap.com/image/SMSR8E0BkChwpY2qnci0Jsk7612bry @done (15-04-26 13:27)\n ✔ не проставлена минимальная ширига для body. При вьюпорте в 800 px http://monosnap.com/image/vDo9XXpBaToh4akqIIEAdvNu7fqQnW @done (15-04-26 18:06)\n ✔ элементы выпадают за пределы контейнера. Баги при ширине вьюпорта 800. Нужно пройтись инспектором по верстке и найти, какие элементы выпадают за пределы и почему http://monosnap.com/image/vDo9XXpBaToh4akqIIEAdvNu7fqQnW @done (15-04-26 17:59)\n ✔ неправильный шрифт http://monosnap.com/image/pTaIpIDjHMJVRGWVj0uzyXRVrLXc8w @done (15-04-27 21:10)\n ✔ нет переполнения в кнопках. http://monosnap.com/image/EFk4tDjXZdacrZrgOmd8YL8VP7nZYp @done (15-04-26 13:35)\n ✔ неправильные стили надписи слайдера, 2 заголовка - грубая ошибка http://monosnap.com/image/EFdlO10PTRYzKZOwgU4JooQ7vdI51g @done (15-04-26 14:25)\n ✔ кресту закрытия форм добавь такие же наведения, что и красной кнопке @done (15-04-27 21:13)\n ✔ я просил сделать копии индекса для модалок, все хорошо. Чуть видоизменилось задание: сделай отдельные страницы с хедером и футером, а в контенте лишь элемент, скрытый в js. Если кликнуть в верстке по элементам, открывающим окно или карту, должен сработать переход на эти страницы. @done (15-04-28 01:50)\n ✔ в подключении файлов в head сделать шрифты - отдельно, стили - отдельно @done (15-04-26 14:27)\n ✔ тени товаров и брендов не соответствуют стайлгайду http://monosnap.com/image/xnlGa3rsHndzflewIRG6NZOJEFGQ3m @done (15-04-26 18:05)\n ✔ нужен вертикальный resize http://monosnap.com/image/m59jPQWqxAOGGPK6zRflNaU65ARalX @done (15-04-26 14:31)\n ✔ что это ? http://monosnap.com/image/gwFgas5M5pa1Ds29Vu7SRAhuTZAXNK @done (15-04-26 14:57)\n ✔ этот селектор ужасен .no-auth > * @done (15-04-26 14:40)\nJavascript:\n  ✔ все скрипты должны подключаться из внешних файлов, из папки js. Твой код - js/scripts.js @done (15-04-26 17:33)\n  ✔ http://monosnap.com/image/7SCBKFUmdM7I6x3y48lWheSjQDpEJM @done (15-04-27 21:13)\n  ✔ что за navText и navClass? почему так сложно? @done (15-04-26 17:40)\n  ✔ этот элемент следует сразу выбрать в переменных document.querySelector(\".big-map-wrap .btn-close\") @done (15-04-26 17:43)\n  ✔ почему обработчик клика в табах вешается на li? @done (15-04-26 17:47)\n  ✔ использовал while вместо for :( @done (15-04-26 22:08)\n\nКаталог:\n ✔ нет @done (15-04-28 00:48)\n\n\nБазовые критерии успешной сдачи макета\n\nРазметка:\n ✔ Б1. Выполнена HTML-разметка всех страниц и всех элементов на страницах. @done (15-04-27 21:21)\n ✔ Б2. К страницам подключён один стилевой файл (с учётом normalize.css или reset.css к каждой странице могут быть подключены два файла). @done (15-04-26 12:01)\n ✔ Б3. Стилевой файл подключён внутри <head>. @done (15-04-26 12:02)\n ✔ Б4. Грубые ошибки в разметке отсутствуют. @done (15-04-27 21:21)\n ☐ Б5. Документ проходит проверку на валидность.\nСтилизация:\n ✔ Б6. Вся собственная стилизация выполнена в одном стилевом файле. @done (15-04-26 12:04)\n ✔ Б7. Раскладка блоков на странице сделана не с помощью таблиц или позиционирования. @done (15-04-26 12:04)\n ✔ Б8. В CSS отсутствует !important. Допускается использование !important при обосновании его необходимости в комментарии. @done (15-04-26 12:05)\n ✔ Б9. Подключены правильные шрифты, их размеры и толщина соответствуют размерам в макетах и ТЗ. @done (15-04-27 21:21)\n ✔ Б10. Указаны альтернативные варианты шрифта и тип семейства в конце перечисления font-family. @done (15-04-26 12:05)\n ✔ Б11. При наполнении контентом (как в макете) элементы каждой страницы соответствуют макету @done (15-04-27 21:21)\nТестирование:\n ✔ Б12. Вёрстка идентично отображается в последних версиях браузеров Chrome, Opera, Firefox, Safari, а также в Internet Explorer 10+. @done (15-04-27 21:21)\n ✔ Б13. Сайт нормально смотрится на минимальном для макета разрешении @done (15-04-27 21:21)\nРазное:\n ✔ Б14. В корне документа имеются папки css, img, js или аналогичные. Главная страница имеет название index.html. В названиях и расширениях файлов нет заглавных букв и пробелов, использованы только латинские символы. @done (15-04-27 21:21)\n ✔ Б15. Единообразное написание и форматирование кода в HTML, CSS и JavaScript. @done (15-04-27 21:21)\n ✔ Б16. Выбран подходящий формат изображений @done (15-04-26 12:09)\n\nДополнительные критерии\n\nРазметка:\n ✔ Д1. У всех изображений в теге <img> прописан размер. @done (15-04-27 21:20)\n ✔ Д2. Использовано минимально возможное количество HTML-элементов (нет лишних элементов). @done (15-04-27 21:20)\n ✔ Д3. Все скрипты подключены непосредственно перед </body>. @done (15-04-27 21:20)\n ✔ Д4. Названия полей форм привязаны к своим полям с помощью <label>. @done (15-04-27 21:20)\n✔ Стилизация: @done (15-04-27 21:20)\n ✔ Д5. Использованы normalize.css или reset.css (но не оба сразу). @done (15-04-27 21:20)\n ✔ Д6. Для стилизации не использованы #id. @done (15-04-27 21:20)\n ✔ Д7. Нет вложенности селекторов больше двух. @done (15-04-27 21:20)\n ✔ Д8. Явно указано подходящее vertical-align для потоковых блоков с display: inline-block. @done (15-04-27 21:20)\n ✔ Д9. Для CSS-свойств с префиксом указан его вариант без префикса и это указание идёт последним. @done (15-04-28 00:40)\n    ✔ нужно прогнать код через автопрефиксер @done (15-04-28 00:40)\n ✔ Д10. Для блока у которого есть фоновое изображение прописан фоновый цвет, который соответствует преобладающему цвету изображения (пока изображение не загружено, страница выглядит похоже на макет). @done (15-04-28 00:41)\n    ✔ слайды @done (15-04-28 00:45)\n ✔ Д11. Все состояния элементов (смотрите styleguide.psd) прописаны в стилевом файле. @done (15-04-28 00:41)\n    ✔ беда с кнопками, нет второй страницы @done (15-04-28 00:41)\n ✔ Д12. Файл стилей представлен в двух вариантах: с форматированием и минимизированный, к странице подключён минимизированный. @done (15-04-28 00:45)\n    ✔ нужно минимизировать @done (15-04-28 00:46)\n JavaScript:\n ✔ Д13. JavaScript-файл представлен в двух вариантах: с форматированием и минимизированный, к странице подключён минимизированный. @done (15-04-28 00:46)\n ✔ Д14. С помощью JavaScript реализовано открытие/закрытие окна с формой (без вспомогательных библиотек). @done (15-04-26 12:17)\n ✔ Д15. С помощью JavaScript добавлена анимация формы (без вспомогательных библиотек). @done (15-04-28 01:50)\n ✔ Д16. Добавлена интерактивная карта (допускается подключение с помощью iframe). @done (15-04-28 00:46)\nТестирование:\n ✔ Д17. Вёрстка проходит тест на переполнение контентом @done (15-04-28 00:46)\n ✔ Д18. Критический функционал сайта работоспособен без JavaScript (использовано прогрессивное улучшение), например @done (15-04-28 01:51)\nРазное:\n ✔ Д19. Отсутствует транслит в названиях классов, атрибутах и так далее. @done (15-04-28 00:47)\n    ✔ нет второй страницы @done (15-04-28 00:47)\n ✔ Д20. При взаимодействии с элементами (наведение, нажатие) ни сам элемент, ни окружающие его блоки не меняют своего положения (если иное не прописано в ТЗ или slyleguide.psd). @done (15-04-28 00:47)\n    ✔ нет второй страницы @done (15-04-28 00:47)\n ✔ Д21. Проведена базовая оптимизация: минифицированы стили и скрипты, использованы спрайты и/или иконочный шрифт (смотрите ТЗ). @done (15-04-28 00:47)\n    ✔ нет спрайта для товаров @done (15-04-28 00:47)",
-			"file": "german-tech.todo",
-			"file_size": 20866,
-			"file_write_time": 130746489254628626,
-			"settings":
-			{
-				"buffer_size": 14576,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/style-dist.css",
-			"settings":
-			{
-				"buffer_size": 29428,
 				"line_ending": "Windows"
 			}
 		}
@@ -403,13 +384,15 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
-		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/js/script.js",
+		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/german-tech.todo",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css/style.css",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/js/script.js",
+		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css/style-dist.css",
+		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/.gitignore",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/index-form.html",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/index-map.html",
-		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/stitches.txt",
 		"/C/Users/Герман/OneDrive/Программирование/Веб/htmlacademy/git/technomart/css/owl.carousel.css",
 		"/C/Users/Герман/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
@@ -468,6 +451,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"120px",
+			"services-tabs",
+			"services-tabs{",
+			"services-tabs",
+			"<img",
+			"img",
 			"btn-white",
 			".btn",
 			"btn",
@@ -589,13 +578,7 @@
 			".searc",
 			"form.searc",
 			"form.sea",
-			"Cuprum-Regular",
-			"box-sizing:",
-			"box-sizing: border-box;",
-			"article",
-			"container",
-			"page-co",
-			"+"
+			"Cuprum-Regular"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -639,11 +622,44 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5155.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
 					"file": "catalog.html",
 					"semi_transient": false,
 					"settings":
@@ -655,8 +671,8 @@
 						"selection":
 						[
 							[
-								15929,
-								15352
+								15899,
+								15899
 							]
 						],
 						"settings":
@@ -669,153 +685,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5768.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16433,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15971,
-								16269
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6360.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "popup-mail.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7005,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3078,
-								3078
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 961.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "popup-map.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6064,
-								6064
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 751.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "popup-item-added.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6999,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3515,
-								3515
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 934.0,
+						"translation.y": 5823.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 37845,
+						"buffer_size": 37889,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11710,
-								11710
+								31609,
+								31619
 							]
 						],
 						"settings":
@@ -824,14 +714,106 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 30175.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "popup-mail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7057,
+								7057
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9550.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "popup-map.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6075,
+								6075
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "popup-item-added.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -847,8 +829,8 @@
 						"selection":
 						[
 							[
-								54,
-								54
+								2695,
+								2695
 							]
 						],
 						"settings":
@@ -864,72 +846,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "german-tech.todo",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13238,
-								13238
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PlainTasks/PlainTasks.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2646.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "css/style-dist.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29428,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28359,
-								28359
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Bright.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 204301.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
