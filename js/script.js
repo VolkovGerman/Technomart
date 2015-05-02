@@ -6,20 +6,15 @@ var bigmap = document.getElementById('bigmap'),
 	tabsNav = document.querySelector(".tabs-nav"),
 	maph = document.querySelector('.map-hidden');
 
-if (maph)
-	setTimeout(function() {
-		maph.classList.remove('map-hidden');
-	}, 1000);
-
 if (smallmap)
 	smallmap.addEventListener("mouseover", function(){
-		bigmap.style.display = "block";
+		bigmap.classList.remove('popup-off');
 	});
 
 if (openFormBtn)
 	openFormBtn.addEventListener("click", function (event){
 		event.preventDefault();
-		form.style.display = "block";
+		form.classList.remove('popup-off');
 	});
 
 var i = 0;
@@ -34,9 +29,11 @@ while (document.getElementsByClassName("btn-close")[i]){
 			popup.classList.add('zoomOut');
 			setTimeout(function () {
 				popup.classList.remove('animated','zoomOut');
+				popup.classList.add('popup-off');
 			}, 500);
 		} else{
-			popup.style.display = 'none';
+			//	popup.style.display = 'none';
+			popup.classList.add('popup-off');
 		}
 
 	});
@@ -81,6 +78,7 @@ while (document.getElementsByClassName('btn-buy')[i]){
 	document.getElementsByClassName('btn-buy')[i].addEventListener("click", function(event){
 		event.preventDefault();
 
+		itemAdded.classList.remove('popup-off');
 		itemAdded.classList.add('animated', 'zoomIn');
 		document.getElementsByClassName('info-cart')[0].style.backgroundColor = "#ee3643";
 		cartCounter.innerHTML = parseInt(cartCounter.innerHTML) + 1;

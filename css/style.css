@@ -324,7 +324,6 @@ a{
 
 .popup{
 	position: fixed;
-	display: none;
 	top: 50px;
 	left: 50%;
 	margin-left: -310px;
@@ -335,6 +334,12 @@ a{
 	background-color: white;
 	box-shadow: 0 -7px 0 #ee3643, 0px 0px 30px rgba(0,0,0,0.8);
 	z-index: 100;
+}
+
+.popup-off{
+	display: block;
+	visibility: hidden;
+	opacity: 0;
 }
 
 .popup.animated,
@@ -1062,7 +1067,6 @@ label.mail-text{
 }
 
 .big-map-wrap{
-	display: none;
 	position: absolute;
 	top: -36px;
 	left: 10px;
@@ -1071,11 +1075,6 @@ label.mail-text{
 	background-color: white;
 	background: url("../img/map-big.jpg") no-repeat;
 	box-shadow: 0px 0px 16px rgba(35,31,32,0.5);
-}
-
-.map-hidden {
-	display: block;
-	visibility: hidden;
 }
 
 .btn-close{
