@@ -1,3 +1,4 @@
 # technomart
-technomart web-page
+Technomart web-pages: main page and catalog.
 http://volkovgerman.github.io/technomart
+http://volkovgerman.github.io/technomart/catalog/
